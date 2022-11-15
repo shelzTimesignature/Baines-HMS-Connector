@@ -3,6 +3,7 @@ import ClaimTariffs from "./claimTariffs";
 
 export default function PatientDetail({patient,medical,data}){
 
+
     const {data:card_holder,isLoading,isError}=useMemberLookup({
         suffix:patient.Patient_Suffix,
         member_number:patient.Medical_Aid_Member_No,

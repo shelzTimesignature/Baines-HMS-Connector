@@ -1,4 +1,6 @@
 export default function ClaiimPatientInformation({data,medical}){
+
+
     return (
         <div>
             <div className="flex flex-col border-b border-gray-100">

@@ -48,7 +48,17 @@ export default function ClaimPresign({cardHolder,claims,claim}){
             console.log(data)
         },
         onError:(e)=>{
+
             console.log(e)
+
+            toast.custom(()=>{
+                return (
+                    <ToastComponent
+                        description={e}
+                        type={'warning'}
+                    />
+                )
+            })
         }
     })
 

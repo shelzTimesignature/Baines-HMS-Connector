@@ -5,6 +5,9 @@ export default function ClaimTariffs({data,patient,medical,cardHolder}){
 
     const {isLoading,isError,getTotal,getDataFiltered,res,data:claims}=ClaimTariffList(data.Claim_No)
 
+
+
+
     if(isLoading){
         return (
             <div>
@@ -63,7 +66,7 @@ export default function ClaimTariffs({data,patient,medical,cardHolder}){
                             patient={patient}
                             medical={medical}
                             data={data}
-                            claims={claims}
+                            claims={getDataFiltered()}
                             cardHolder={cardHolder}
                         />
                     </div>

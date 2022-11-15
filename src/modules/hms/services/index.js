@@ -26,6 +26,198 @@ export const sendRealtimePresign=(data)=>{
         const {claim,claims,cardHolder,auth}=data
 
 
+       claims.map(c=>{
+                c.Type="T"
+                c.Number=100
+                c.CodeSet="Other"
+                c.Code=c.Tariff_Code //tarif Cod
+                c.CodeDescription=c.Name //Descriptio
+                c.ChargeableUnit="U"
+                c.ChargeableQuantity=1
+                c.SectionType="W"
+                c.ServiceStartDateTime=20220906105359
+                c.ServiceEndDateTime=20220906105359
+                c.ExternalReferenceNumber="A1223422"
+                c.BenefitCode="A223"
+                c.BenefitDescription="Descr"
+                c.NumberOfConsumables=0
+                c.Identifier=0
+                c.NumberOfLaboratoryRecords=0
+                c.NumberOfToothRecords=0
+                c.NumberOfDentalLaboratoryRecords=0
+                c.NumberOfOptometryRecords=0
+                c.WhomToPay="P"
+                c.UpdateIndicator="N"
+
+
+            // eslint-disable-next-line no-unused-expressions
+                c.Authorisation = {
+                    PreAuthorisationNumber: "REALTIME",
+                    AuthorisationNumber: auth,
+                    AuthorisationDate: 20211208
+                    },
+                c.Procedure= {
+                    Stage: "P",
+                        CodeSet: "CPT",
+                        Code: 43235,
+                        Description: "Gastroscopy"
+                },
+                c.Provider={
+                    Role: "SP",
+                    PracticeNumber: 50032, //affos number
+                    PracticeName: "BAINES AVENUE CLINIC" // baines
+                },
+                c.Diagnosis= {
+                    Stage: "P",
+                    CodeSet: "ICD",
+                    Code: claim?.ICD10_Code//iCD10 CODE
+                },
+                c.SubTotalValues= {
+                    GrossAmount: 789,
+                    NettAmount: 789,
+                    ReceiptAmount: 0,
+                    LevyAmount: 0,
+                    DiscountAmount: 0,
+                    GenericSurchargeAmount: 0,
+                    PatientPayAmount: 0,
+                    OverChargeAmount: 0,
+                    ContainerFeeAmount: 0,
+                    DispensingFeeAmount: 0,
+                    ProfessionalFeeAmount: 0,
+                    VarianceAmount: 0
+                },
+                c.Message= {
+                    Type: "I",
+                    Code: 10008,
+                    Description: "Service request message"
+                },
+                c.TotalValues= {
+                    GrossAmount: 789,
+                    NettAmount: 789,
+                    ReceiptAmount: 0,
+                    LevyAmount: 0,
+                    DiscountAmount: 0,
+                    GenericSurchargeAmount: 0,
+                    PatientPayAmount: 0,
+                    OverChargeAmount: 0,
+                    ContainerFeeAmount: 0,
+                    DispensingFeeAmount: 0,
+                    ProfessionalFeeAmount: 0,
+                    VarianceAmount: 0
+                }
+
+
+                return c
+        })
+
+
+
+       claims.forEach(v=>{
+            delete v['@odata.etag']
+            delete v['Amount_Awarded']
+            delete v['Claim_Line_No']
+            delete v['Day1']
+            delete v['Day2']
+            delete v['Day3']
+            delete v['Day4']
+            delete v['Day5']
+            delete v['Document_Claim_No']
+            delete v['Fee_Amount']
+            delete v['Line_No']
+            delete v['Mod1']
+            delete v['Mod2']
+            delete v['Month']
+            delete v['Name']
+            delete v['Quantity']
+            delete v['Shortfall']
+            delete v['Tariff_Code']
+            delete v['Tariff_Description']
+            delete v['Year']
+        })
+
+
+        console.log(claims)
+
+        const s=[{
+            Type: "T",
+            Number: 100,
+            CodeSet: "Other",
+            Code: 90050,//ICD10 Code
+            CodeDescription: "Ward Fees",//Description
+            ChargeableUnit: "U",
+            ChargeableQuantity: 1,
+            SectionType: "W",
+            ServiceStartDateTime: 20220906105359,
+            ServiceEndDateTime: 20220906105359,
+            ExternalReferenceNumber: "A1223422",
+            BenefitCode: "A223",
+            BenefitDescription: "Descr",
+            NumberOfConsumables: 0,
+            Identifier: 0,
+            NumberOfLaboratoryRecords: 0,
+            NumberOfToothRecords: 0,
+            NumberOfDentalLaboratoryRecords: 0,
+            NumberOfOptometryRecords: 0,
+            WhomToPay: "P",
+            UpdateIndicator: "N",
+            Authorisation: {
+                PreAuthorisationNumber: "REALTIME",
+                AuthorisationNumber: auth,
+                AuthorisationDate: 20211208
+            },
+            Procedure: {
+                Stage: "P",
+                CodeSet: "CPT",
+                Code: 43235,
+                Description: "Gastroscopy"
+            },
+            Provider: {
+                Role: "SP",
+                PracticeNumber: 2291,
+                PracticeName: "provider_number"
+            },
+            Diagnosis: {
+                Stage: "P",
+                CodeSet: "ICD",
+                Code: "E98.1"
+            },
+            SubTotalValues: {
+                GrossAmount: 789,
+                NettAmount: 789,
+                ReceiptAmount: 0,
+                LevyAmount: 0,
+                DiscountAmount: 0,
+                GenericSurchargeAmount: 0,
+                PatientPayAmount: 0,
+                OverChargeAmount: 0,
+                ContainerFeeAmount: 0,
+                DispensingFeeAmount: 0,
+                ProfessionalFeeAmount: 0,
+                VarianceAmount: 0
+            },
+            Message: {
+                Type: "I",
+                Code: 10008,
+                Description: "Service request message"
+            },
+            TotalValues: {
+                GrossAmount: 789,
+                NettAmount: 789,
+                ReceiptAmount: 0,
+                LevyAmount: 0,
+                DiscountAmount: 0,
+                GenericSurchargeAmount: 0,
+                PatientPayAmount: 0,
+                OverChargeAmount: 0,
+                ContainerFeeAmount: 0,
+                DispensingFeeAmount: 0,
+                ProfessionalFeeAmount: 0,
+                VarianceAmount: 0
+            }
+        }]
+        console.log(s)
+
+
 
         const req={
             Request: {
@@ -98,83 +290,8 @@ export const sendRealtimePresign=(data)=>{
                         VarianceAmount: 0
                     }
                 },
-                Service: {
-                    Type: "T",
-                    Number: 100,
-                    CodeSet: "Other",
-                    Code: 90050,//ICD10 Code
-                    CodeDescription: "Ward Fees",//Description
-                    ChargeableUnit: "U",
-                    ChargeableQuantity: 1,
-                    SectionType: "W",
-                    ServiceStartDateTime: 20220906105359,
-                    ServiceEndDateTime: 20220906105359,
-                    ExternalReferenceNumber: "A1223422",
-                    BenefitCode: "A223",
-                    BenefitDescription: "Descr",
-                    NumberOfConsumables: 0,
-                    Identifier: 0,
-                    NumberOfLaboratoryRecords: 0,
-                    NumberOfToothRecords: 0,
-                    NumberOfDentalLaboratoryRecords: 0,
-                    NumberOfOptometryRecords: 0,
-                    WhomToPay: "P",
-                    UpdateIndicator: "N",
-                    Authorisation: {
-                        PreAuthorisationNumber: "REALTIME",
-                        AuthorisationNumber: auth,
-                        AuthorisationDate: 20211208
-                    },
-                    Procedure: {
-                        Stage: "P",
-                        CodeSet: "CPT",
-                        Code: 43235,
-                        Description: "Gastroscopy"
-                    },
-                    Provider: {
-                        Role: "SP",
-                        PracticeNumber: 2291,
-                        PracticeName: "provider_number"
-                    },
-                    Diagnosis: {
-                        Stage: "P",
-                        CodeSet: "ICD",
-                        Code: "E98.1"
-                    },
-                    SubTotalValues: {
-                        GrossAmount: 789,
-                        NettAmount: 789,
-                        ReceiptAmount: 0,
-                        LevyAmount: 0,
-                        DiscountAmount: 0,
-                        GenericSurchargeAmount: 0,
-                        PatientPayAmount: 0,
-                        OverChargeAmount: 0,
-                        ContainerFeeAmount: 0,
-                        DispensingFeeAmount: 0,
-                        ProfessionalFeeAmount: 0,
-                        VarianceAmount: 0
-                    },
-                    Message: {
-                        Type: "I",
-                        Code: 10008,
-                        Description: "Service request message"
-                    },
-                    TotalValues: {
-                        GrossAmount: 789,
-                        NettAmount: 789,
-                        ReceiptAmount: 0,
-                        LevyAmount: 0,
-                        DiscountAmount: 0,
-                        GenericSurchargeAmount: 0,
-                        PatientPayAmount: 0,
-                        OverChargeAmount: 0,
-                        ContainerFeeAmount: 0,
-                        DispensingFeeAmount: 0,
-                        ProfessionalFeeAmount: 0,
-                        VarianceAmount: 0
-                    }
-                }
+               // Service:claims
+                Service:claims
             }
         }
 
@@ -236,7 +353,15 @@ export const sendRealtimePresign=(data)=>{
 
                         const ClaimHeader=x.ClaimHeaderResponse
 
-                    console.log(ClaimHeader.Message[1].Description.toString())
+                    const Message=ClaimHeader.Message[1].Description.toString()
+
+                    console.log(x)
+                    console.log(Message)
+
+                    if(ClaimHeader?.ResponseCode?.toString()==='R'){
+                        reject(Message)
+                    }
+
 
 
                     // const key=x?.AuthorisationKey?.toString()
