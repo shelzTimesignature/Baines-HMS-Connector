@@ -1,0 +1,1412 @@
+[8/24/22, 09:22:14] ‪+263 78 232 2587‬: ‎Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them.
+[8/24/22, 09:22:14] ‪+263 78 232 2587‬: Hi
+[8/24/22, 09:38:25] KC: how are you
+[8/24/22, 09:39:28] ‪+263 78 232 2587‬: I Got you number from Lucky....... It's been weeks now we are trying to connect to health263 test end points but we are not getting any lucky
+‎[8/24/22, 09:40:37] ‪+263 78 232 2587‬: ‎image omitted
+[8/24/22, 09:40:58] ‪+263 78 232 2587‬: Every post method is giving error 500 code for server error
+[8/24/22, 10:05:40] ‪+263 78 232 2587‬: Hello boss
+[8/24/22, 10:18:45] ‪+263 78 232 2587‬: I am from Capesso and have been referred to you by Lucky
+[8/24/22, 10:19:09] KC: calling you soon after my meeting
+[8/24/22, 10:19:17] ‪+263 78 232 2587‬: Okey
+[8/24/22, 10:46:42] KC: <?xml version="1.0" encoding="utf-16"?>
+<process xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <request xmlns="http://apace.systems/apacewebservices/">
+    <Member xmlns="urn:apace:member:format:1.0">
+      <Request>
+        <Transaction>
+          <VersionNumber>1.0</VersionNumber>
+          <Number>ClaimCatch^78841^20223622080851</Number>
+          <SystemIdentifier>ADUK</SystemIdentifier>
+          <DestinationCode>CIMSZWA</DestinationCode>
+          <ClientCountryCode>ZW</ClientCountryCode>
+          <Timestamp TimeZone="Africa/Harare">20220822203651</Timestamp>
+          <TestIndicator>Y</TestIndicator>
+          <User>316111/Zinyama, Allen Mutizwa MR</User>
+        </Transaction>
+        <MembershipLookup>
+          <IncludeDetail>Y</IncludeDetail>
+          <Funder>CIMSZW</Funder>
+          <WithMembershipNumber>
+            <MembershipNumber>06871054</MembershipNumber>
+            <DependentCode>01</DependentCode>
+          </WithMembershipNumber>
+        </MembershipLookup>
+      </Request>
+    </Member>
+  </request>
+</process>
+[8/24/22, 10:47:34] KC: change systemIdentifier to your vendor name
+[8/24/22, 10:47:45] ‪+263 78 232 2587‬: Okey thanks
+[8/24/22, 13:33:14] ‪+263 78 232 2587‬: Hi I'm now using insomnia rest it's giving me couldn't parse stream
+‎[8/24/22, 13:34:39] ‪+263 78 232 2587‬: ‎image omitted
+[8/24/22, 13:59:03] KC: try postman v 9.29.0
+[8/24/22, 14:08:09] ‪+263 78 232 2587‬: Ok
+[8/24/22, 14:08:12] KC: <x:Envelope
+    xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:apa="http://apace.systems/apacewebservices/"
+    xmlns:urn="urn:apace:biometric:format:1.1">
+    <x:Header>
+        <apa:secureToken>add your token</x:Header>
+    <x:Body>
+        <apa:process>
+            <apa:request>
+                <urn:BiometricEnrollment>
+                    <urn:Request>
+                        <urn:Transaction>
+                            <urn:VersionNumber>1.1</urn:VersionNumber>
+                            <urn:Type>REQ</urn:Type>
+                            <urn:Number>24892348347</urn:Number>
+                            <urn:SystemIdentifier>WCHMS</urn:SystemIdentifier>
+                            <urn:DestinationCode>CMPUZWA</urn:DestinationCode>
+                            <urn:CountryCode>ZW</urn:CountryCode>
+                            <urn:Timestamp TimeZone="Africa/Harare">20211124153406</urn:Timestamp>
+                            <urn:TestIndicator>Y</urn:TestIndicator>
+                            <urn:User>698437/mziwani</urn:User>
+                        </urn:Transaction>
+                        <urn:Client NumberOfBioRecords="1">
+                            <urn:Action>VERIFY</urn:Action>
+                            <urn:ClientCodeType>MED</urn:ClientCodeType>
+                            <urn:ClientCode>CMPUZW^201000594^00</urn:ClientCode>
+                            <urn:ClientSubCode>00</urn:ClientSubCode>
+                            <urn:OverrideIndicator>N</urn:OverrideIndicator>
+                            <urn:OverrideReason>NA</urn:OverrideReason>
+                            <urn:BiometricData SequenceNumber="1">
+                                <urn:Type>FPI</urn:Type>
+                                <urn:Indicator>RT</urn:Indicator>
+                                <urn:Data>Rk1SACAyMAAAAAFKAAABBAEsAMUAxQEAABBRMoBJABiUAECsABnuAEBQABoQAEAjACA
+                  cAICmADrjAEDAADzdAIBeAEGhAIAMAEWvAECcAFLRAEByAFSbAIBcAFosAEASAFy1AE
+                  B1AGC7AEB4AGTAAEDaAGTUAIC6AGjMAICfAHLGAECPAHS9AIBiAHbGAEBAAHjAAIDcA
+                  HnMAIB2AHlCAIBXAHzGAEB%2BAIo9AEAWAIq9AICMAI61AIBJAJHGAIB4AJJOAECAAJ
+                  QzAIDaAJbGAIAjAJjFAECyAKG9AIClAKG5AEDQAK7GAEB7ALckAIDJALfCAIBuAMTqA
+                  IBXAMXZAECNAMyNAEBEAMzRAECMAN2NAIB7AOQBAECyAOmuAEBGAP3ZAEAvAP5RAECy
+                  AQQoAEBJAQpaAIB8AQ%2F8AIDCARYVAEBzARhuAAAA</urn:Data>
+                            </urn:BiometricData>
+                        </urn:Client>
+                    </urn:Request>
+                </urn:BiometricEnrollment>
+            </apa:request>
+        </apa:process>
+    </x:Body>
+</x:Envelope>
+[8/24/22, 14:08:35] KC: inset token on sample text
+[8/24/22, 14:09:16] ‪+263 78 232 2587‬: Okey let me try that
+‎[8/24/22, 14:29:05] ‪+263 78 232 2587‬: ‎image omitted
+‎[8/24/22, 14:29:06] ‪+263 78 232 2587‬: ‎image omitted
+[8/24/22, 14:31:00] KC: error was, could not authenticate your request
+[8/24/22, 14:31:17] ‪+263 78 232 2587‬: yes
+‎[8/24/22, 14:32:05] ‪+263 78 232 2587‬: ‎image omitted
+[8/24/22, 14:32:08] KC: confirm your token is correct
+[8/24/22, 14:35:58] KC: <faultstring xml:lang="en-ZA">Could not authenticate your request.</faultstring>
+‎[8/24/22, 14:40:05] ‪+263 78 232 2587‬: ‎image omitted
+[8/24/22, 14:41:38] KC: you had missed out the header on previous transactions
+[8/24/22, 14:42:16] KC: now you have the structure. try do member details request
+[8/24/22, 14:42:32] ‪+263 78 232 2587‬: Okey let me do it now
+‎[8/24/22, 14:50:58] ‪+263 78 232 2587‬: ‎image omitted
+[8/24/22, 15:07:28] KC: Just got into a meeting now
+[8/24/22, 15:07:35] KC: Will revert back
+[8/24/22, 15:08:39] ‪+263 78 232 2587‬: okey thanks
+[8/25/22, 08:19:14] ‪+263 78 232 2587‬: Hi
+[8/25/22, 08:19:27] KC: Zvirisei
+[8/25/22, 08:19:54] ‪+263 78 232 2587‬: Good good
+[8/25/22, 08:20:14] ‪+263 78 232 2587‬: Did you check what's wrong with my code ?
+[8/25/22, 08:23:19] KC: let me check and get back to you
+[8/25/22, 08:23:37] ‪+263 78 232 2587‬: Okey thanks
+[8/25/22, 10:51:36] ‪+263 78 232 2587‬: Hi
+[8/25/22, 13:04:57] KC: hi boss
+[8/25/22, 13:05:08] KC: use URL: https://test-submit.health263.systems:8081/apacewebservices/AMF1_0
+[8/25/22, 13:06:07] KC: <x:Envelope
+    xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:apa="http://apace.systems/apacewebservices/"
+    xmlns:urn="urn:apace:member:format:1.0">
+    <x:Header>
+        <apa:secureToken>add token</apa:secureToken>
+    </x:Header>
+<x:Body xmlns:x="http://schemas.xmlsoap.org/soap/envelope/">
+    <apa:process xmlns:apa="http://apace.systems/apacewebservices/">
+        <apa:request>
+            <urn:Member xmlns:urn="urn:apace:member:format:1.0">
+                <urn:Request>
+                    <urn:Transaction>
+                        <urn:VersionNumber>1.0</urn:VersionNumber>
+                        <urn:Number>24892348345</urn:Number>
+                        <urn:SystemIdentifier>WCHMS</urn:SystemIdentifier>
+                        <urn:DestinationCode>CMPUZWA</urn:DestinationCode>
+                        <urn:ClientCountryCode>ZW</urn:ClientCountryCode>
+                        <urn:Timestamp TimeZone="Africa/Harare">20211124153406</urn:Timestamp>
+                        <urn:TestIndicator>Y</urn:TestIndicator>
+                        <urn:User>698437/mziwani</urn:User>
+                    </urn:Transaction>
+                    <urn:MembershipLookup>
+                        <urn:IncludeDetail>Y</urn:IncludeDetail>
+                        <urn:Funder>CMPUZW</urn:Funder>
+                        <urn:WithMembershipNumber>
+                            <urn:MembershipNumber>201000594</urn:MembershipNumber>
+                            <urn:DependentCode>00</urn:DependentCode>
+                        </urn:WithMembershipNumber>
+                    </urn:MembershipLookup>
+                </urn:Request>
+            </urn:Member>
+        </apa:request>
+    </apa:process>
+</x:Body>
+</x:Envelope>
+[8/25/22, 13:15:29] ‪+263 78 232 2587‬: okey thanks
+[8/25/22, 13:29:35] ‪+263 78 232 2587‬: thanks bro its working
+[8/25/22, 13:29:46] KC: Cool
+[9/5/22, 08:58:52] ‪+263 78 232 2587‬: hi
+[9/5/22, 08:59:27] KC: How are you
+[9/5/22, 08:59:52] ‪+263 78 232 2587‬: good good
+[9/5/22, 09:00:27] ‪+263 78 232 2587‬: do you have xml code for biometric submittion. i think all the codes on that documentation are outdated
+[9/5/22, 09:01:00] ‪+263 78 232 2587‬: <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright ©️ 2015 Apace Systems (Pty) Ltd. All rights reserved.
+  Name:         Example_5_ClientEnrolReq.xml
+  Description:  A typical request to enrol a person.
+-->
+<BiometricEnrollment xmlns="urn:apace:biometric:format:1.1">
+  <Request>
+    <Transaction>
+      <VersionNumber>1.1</VersionNumber>
+      <Type>REQ</Type>
+      <Number>434252-342234-6770</Number>
+      <SystemIdentifier>SYSTEMID</SystemIdentifier>
+      <DestinationCode>APACE</DestinationCode>
+      <CountryCode>ZA</CountryCode>
+      <Timestamp TimeZone="Africa/Johannesburg">20141201122945</Timestamp>
+      <TestIndicator>Y</TestIndicator>
+      <User>MediClinic/Jane Doe</User>
+    </Transaction>
+    <Client NumberOfBioRecords="6">
+      <Action>ENROL</Action>
+      <ClientCodeType>MED</ClientCodeType>
+      <ClientCode>FUNDER^653867^00</ClientCode>
+      <OverrideIndicator>N</OverrideIndicator>
+      <BiometricData SequenceNumber="1">
+        <Type>FPI</Type>
+        <Indicator>RI</Indicator>
+        <!-- The Data field's content is broken up to fit nicely -->
+        <!-- onto this page. Real data must be one long line     -->
+        <Data>
+Rk1SACAyMAAAAAFKAAABBAEsAMUAxQEAABBRMoBJABiUAECsABnuAEBQABoQAEAjACA
+cAICmADrjAEDAADzdAIBeAEGhAIAMAEWvAECcAFLRAEByAFSbAIBcAFosAEASAFy1AE
+B1AGC7AEB4AGTAAEDaAGTUAIC6AGjMAICfAHLGAECPAHS9AIBiAHbGAEBAAHjAAIDcA
+HnMAIB2AHlCAIBXAHzGAEB%2BAIo9AEAWAIq9AICMAI61AIBJAJHGAIB4AJJOAECAAJ
+QzAIDaAJbGAIAjAJjFAECyAKG9AIClAKG5AEDQAK7GAEB7ALckAIDJALfCAIBuAMTqA
+IBXAMXZAECNAMyNAEBEAMzRAECMAN2NAIB7AOQBAECyAOmuAEBGAP3ZAEAvAP5RAECy
+AQQoAEBJAQpaAIB8AQ%2F8AIDCARYVAEBzARhuAAAA
+        </Data>
+      </BiometricData>
+      <BiometricData SequenceNumber="2">
+        <Type>FPI</Type>
+        <Indicator>RM</Indicator>
+        <!-- The Data field's content is broken up to fit nicely -->
+        <!-- onto this page. Real data must be one long line     -->
+        <Data>
+Rk1SACAyMAAAAAFKAAABBAEsAMUAxQEAABBRMoBJABiUAECsABnuAEBQABoQAEAjACA
+cAICmADrjAEDAADzdAIBeAEGhAIAMAEWvAECcAFLRAEByAFSbAIBcAFosAEASAFy1AE
+B1AGC7AEB4AGTAAEDaAGTUAIC6AGjMAICfAHLGAECPAHS9AIBiAHbGAEBAAHjAAIDcA
+HnMAIB2AHlCAIBXAHzGAEB%2BAIo9AEAWAIq9AICMAI61AIBJAJHGAIB4AJJOAECAAJ
+QzAIDaAJbGAIAjAJjFAECyAKG9AIClAKG5AEDQAK7GAEB7ALckAIDJALfCAIBuAMTqA
+IBXAMXZAECNAMyNAEBEAMzRAECMAN2NAIB7AOQBAECyAOmuAEBGAP3ZAEAvAP5RAECy
+AQQoAEBJAQpaAIB8AQ%2F8AIDCARYVAEBzARhuAAAA
+        </Data>
+      </BiometricData>
+      <BiometricData SequenceNumber="3">
+        <Type>FPI</Type>
+        <Indicator>RT</Indicator>
+        <!-- The Data field's content is broken up to fit nicely -->
+        <!-- onto this page. Real data must be one long line     -->
+        <Data>
+Rk1SACAyMAAAAAFKAAABBAEsAMUAxQEAABBRMoBJABiUAECsABnuAEBQABoQAEAjACA
+cAICmADrjAEDAADzdAIBeAEGhAIAMAEWvAECcAFLRAEByAFSbAIBcAFosAEASAFy1AE
+B1AGC7AEB4AGTAAEDaAGTUAIC6AGjMAICfAHLGAECPAHS9AIBiAHbGAEBAAHjAAIDcA
+HnMAIB2AHlCAIBXAHzGAEB%2BAIo9AEAWAIq9AICMAI61AIBJAJHGAIB4AJJOAECAAJ
+QzAIDaAJbGAIAjAJjFAECyAKG9AIClAKG5AEDQAK7GAEB7ALckAIDJALfCAIBuAMTqA
+IBXAMXZAECNAMyNAEBEAMzRAECMAN2NAIB7AOQBAECyAOmuAEBGAP3ZAEAvAP5RAECy
+AQQoAEBJAQpaAIB8AQ%2F8AIDCARYVAEBzARhuAAAA
+        </Data>
+      </BiometricData>
+      <BiometricData SequenceNumber="4">
+        <Type>FPI</Type>
+        <Indicator>LI</Indicator>
+        <!-- The Data field's content is broken up to fit nicely -->
+        <!-- onto this page. Real data must be one long line     -->
+        <Data>
+Rk1SACAyMAAAAAFKAAABBAEsAMUAxQEAABBRMoBJABiUAECsABnuAEBQABoQAEAjACA
+cAICmADrjAEDAADzdAIBeAEGhAIAMAEWvAECcAFLRAEByAFSbAIBcAFosAEASAFy1AE
+B1AGC7AEB4AGTAAEDaAGTUAIC6AGjMAICfAHLGAECPAHS9AIBiAHbGAEBAAHjAAIDcA
+HnMAIB2AHlCAIBXAHzGAEB%2BAIo9AEAWAIq9AICMAI61AIBJAJHGAIB4AJJOAECAAJ
+QzAIDaAJbGAIAjAJjFAECyAKG9AIClAKG5AEDQAK7GAEB7ALckAIDJALfCAIBuAMTqA
+IBXAMXZAECNAMyNAEBEAMzRAECMAN2NAIB7AOQBAECyAOmuAEBGAP3ZAEAvAP5RAECy
+AQQoAEBJAQpaAIB8AQ%2F8AIDCARYVAEBzARhuAAAA
+        </Data>
+      </BiometricData>
+      <BiometricData SequenceNumber="5">
+        <Type>FPI</Type>
+        <Indicator>LM</Indicator>
+        <!-- The Data field's content is broken up to fit nicely -->
+        <!-- onto this page. Real data must be one long line     -->
+        <Data>
+Rk1SACAyMAAAAAFKAAABBAEsAMUAxQEAABBRMoBJABiUAECsABnuAEBQABoQAEAjACA
+cAICmADrjAEDAADzdAIBeAEGhAIAMAEWvAECcAFLRAEByAFSbAIBcAFosAEASAFy1AE
+B1AGC7AEB4AGTAAEDaAGTUAIC6AGjMAICfAHLGAECPAHS9AIBiAHbGAEBAAHjAAIDcA
+HnMAIB2AHlCAIBXAHzGAEB%2BAIo9AEAWAIq9AICMAI61AIBJAJHGAIB4AJJOAECAAJ
+QzAIDaAJbGAIAjAJjFAECyAKG9AIClAKG5AEDQAK7GAEB7ALckAIDJALfCAIBuAMTqA
+IBXAMXZAECNAMyNAEBEAMzRAECMAN2NAIB7AOQBAECyAOmuAEBGAP3ZAEAvAP5RAECy
+AQQoAEBJAQpaAIB8AQ%2F8AIDCARYVAEBzARhuAAAA
+        </Data>
+      </BiometricData>
+      <BiometricData SequenceNumber="6">
+        <Type>FPI</Type>
+        <Indicator>LT</Indicator>
+        <!-- The Data field's content is broken up to fit nicely -->
+        <!-- onto this page. Real data must be one long line     -->
+        <Data>
+Rk1SACAyMAAAAAFKAAABBAEsAMUAxQEAABBRMoBJABiUAECsABnuAEBQABoQAEAjACA
+cAICmADrjAEDAADzdAIBeAEGhAIAMAEWvAECcAFLRAEByAFSbAIBcAFosAEASAFy1AE
+B1AGC7AEB4AGTAAEDaAGTUAIC6AGjMAICfAHLGAECPAHS9AIBiAHbGAEBAAHjAAIDcA
+HnMAIB2AHlCAIBXAHzGAEB%2BAIo9AEAWAIq9AICMAI61AIBJAJHGAIB4AJJOAECAAJ
+QzAIDaAJbGAIAjAJjFAECyAKG9AIClAKG5AEDQAK7GAEB7ALckAIDJALfCAIBuAMTqA
+IBXAMXZAECNAMyNAEBEAMzRAECMAN2NAIB7AOQBAECyAOmuAEBGAP3ZAEAvAP5RAECy
+AQQoAEBJAQpaAIB8AQ%2F8AIDCARYVAEBzARhuAAAA
+        </Data>
+      </BiometricData>
+    </Client>
+  </Request>
+</BiometricEnrollment>
+[9/5/22, 09:01:23] ‪+263 78 232 2587‬: this is what im using at its giving me errors
+[9/5/22, 09:19:47] KC: <?xml version="1.0" encoding="UTF-8"?>
+<ns3:BiometricEnrollment xmlns:ns3="urn:apace:biometric:format:1.1">
+    <ns3:Request>
+        <ns3:Transaction>
+            <ns3:VersionNumber xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">1.1</ns3:VersionNumber>
+            <ns3:Type>REQ</ns3:Type>
+            <ns3:Number>DRMS-4543-1661426551910-50</ns3:Number>
+            <ns3:SystemIdentifier>DRMS</ns3:SystemIdentifier>
+            <ns3:DestinationCode>CIHGZWA</ns3:DestinationCode>
+            <ns3:CountryCode>ZW</ns3:CountryCode>
+            <ns3:Timestamp TimeZone="Africa/Harare">20220825132231</ns3:Timestamp>
+            <ns3:TestIndicator>Y</ns3:TestIndicator>
+            <ns3:User>18230/18230</ns3:User>
+        </ns3:Transaction>
+        <ns3:Client NumberOfBioRecords="10">
+            <ns3:Action>ENROL</ns3:Action>
+            <ns3:ClientCodeType>MED</ns3:ClientCodeType>
+            <ns3:ClientCode>CIHGZW^11469172 ^01</ns3:ClientCode>
+            <ns3:OverrideIndicator>N</ns3:OverrideIndicator>
+            <ns3:BiometricData SequenceNumber="1">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>LI</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAACoAAABBAEsAMUAxQEAAABbF0BxABsRAIDuACIEAEBQAC0bAIDOADGHAEDCAD8HAECgAF4HAEBiAGAXAIAtAGMeAEDsAG3xAIC1AHcAAEAZAH2nAIA7AJOoAECFAJUQAEBQALaqAIDhALrbAEDJAL3dAICYAMAHAEAmAMgpAID8ANbQAEAWAO2zAEDkAPvGAEAnAQi7AEBuARo9AAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="2">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>LM</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAAC0AAABBAEsAMUAxQEAAABXGYDQAB+JAEC7ACcHAECvADSUAEBwADchAIDqAEGCAIDqAE77AIDTAFv+AICiAGQXAEBNAG2qAEDnAHXbAEBtAIWsAEDDAJfDAEDLAJ7NAIC4AKW5AIDEAKbAAEDfALPHAIB0ALa4AEDSALpHAEDDAL1GAEB5ANnAAEDSAOEyAEBAAOS7AICSAPHQAEC/APrxAIBeARDHAAAA</ns3:Data>
+            </
+            <ns3:BiometricData SequenceNumber="3">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>LP</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAACWAAABBAEsAMUAxQEAAABTFEB+ABuNAIArACsoAEAcADGnAEBsADUVAEB2AE0KAIChAF30AIAoAF8eAIBsAIoRAIBTAKSnAEByAKqnAIB3AK+vAEB7ALa1AIA0ALcsAEBxAMYzAEC9ANK7AIBbAOErAEDIAOW7AEB3AP+eAIBOAQYeAEBdAR4VAAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="4">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>LR</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAAD2AAABBAEsAMUAxQEAAABcJEBDAByiAIAxAC0kAIBZAD8aAIArAEOiAEBPAE2kAIDFAFprAIAqAFwlAEDDAGPeAECtAHl7AEBhAIKoAECiAJvGAECZAJ2sAECeAJ+uAECnAJ/KAIB7AKGyAECfAKe7AED2AKfHAECOALMuAEBGALOxAIBdALi1AECoAMM4AIC2ANSyAECWANU4AIAoAOCxAICUAOA6AIA9AOC1AEBSAPLGAIDWAPO7AEC8APesAEAeAPiqAICmAPiWAIDpAQC/AEAsAQ29AEB3AQ/nAEC9ARCoAECTARl9AAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="5">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>LT</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAADAAAABBAEsAMUAxQEAAABSG0CRABURAEDaACDsAECaAESWAECNAEYVAIC+AFD/AEBhAFGhAIDrAFFaAID2AGPMAECjAGqdAECIAG8fAIC/AHWyAIDeAHjAAICtAHmuAEAkAJSdAEDIAJizAIA0AJyrAIBjAKClAIBIAKkiAED0ALK4AECxAL2qAEAcAMkeAEBRAM4aAIAyAM4VAIAZANSUAEA0AO0QAEDQAO+oAIBSAQ0JAAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="6">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>RI</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAADYAAABBAEsAMUAxQEAAABjH0AzAAx4AICsABJvAEAeADGDAECeADJ4AEDlADbsAIARAD0AAEAxAEp9AEDfAFRuAIBrAGF8AIDkAG7uAIAXAIGRAEC2AJJzAIDmAJbuAIDaAJ/oAEBvAK6GAICXALl7AIDJAMFlAECJAML1AICCANZ5AEDKAN7dAED6AOnQAEBfAO+iAECQAPDkAEB+APbnAEDhAPpbAEDSAP5fAEAPAP64AECuAQhkAEBnAQrNAIDpAQxzAEDeASN7AAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="7">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>RM</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAADGAAABBAEsAMUAxQEAAABQHIBoAA98AEBQABGKAIBDADWgAEBLADoUAICnADt1AEB3AE2KAECbAFr0AEA8AGIcAIBqAGMJAICkAHdzAEBEAHunAEC5AIHbAECHAIKNAECkAJrUAECWAJvRAIBMAKS1AIDQAKfMAECCAKjAAECsAKpRAEDJAK9QAECvALHNAECiALhNAEB2ANLHAIDvANnGAIBIANvDAICSAOdGAEDTAOfAAECIAPlHAAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="8">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>RP</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAACuAAABBAEsAMUAxQEAAABYGECzAAveAEBYACp1AEDGAC9bAECOAEZhAEC4AExbAEBVAFeAAEApAF2kAEAtAJK4AIDcAJdXAEBRAJjDAIDIAKXWAIBSAKfGAEBvAKvaAEBiAK7UAIAyALLDAEB9AL9aAIDZAMBXAIB2AMLXAEC5AMtUAEB0AM1VAIBPAM/JAIB8AQNXAEBQAQvaAECiARRpAAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="9">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>RR</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAADGAAABBAEsAMUAxQEAAABSHEBnABwTAEDeABxhAECsACppAECRAEF9AIDMAETRAECXAFzjAECIAGPGAEB6AGO7AECEAGrDAECmAGphAIBHAHO8AIBxAHbJAEB4AHc9AIBrAJPHAICzAKhKAEDZAK3GAIDxAK7HAIC8ALtEAEC1AMJQAEDFAM09AEDEANKkAIC1ANRfAEBVANjKAIDGAOYcAECiAQbuAEC8AQkAAEDOARsGAEC6ASJ4AAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="10">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>RT</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAACcAAABBAEsAMUAxQEAAABUFYCeACD0AEDJACtoAID2AD5eAICzAEhpAEBCAFeuAIB+AGeKAEBtAGkKAEDUAGrdAECAAH69AECGAIHQAEB9AJ3QAECwAKrRAEBzALXQAIBVALXDAEC+AMNYAEA6AMZAAIBAAMvFAECVAOHZAECHAPtRAEBiAQDRAEDUARduAAAA</ns3:Data>
+            </ns3:BiometricData>
+        </ns3:Client>
+    </ns3:Request>
+</ns3:BiometricEnrollment>
+ns3:BiometricData>
+[9/5/22, 09:22:44] ‪+263 78 232 2587‬: let me try it
+[9/5/22, 09:28:23] ‪+263 78 232 2587‬: its giving me errors
+‎[9/5/22, 09:30:33] ‪+263 78 232 2587‬: ‎image omitted
+[9/5/22, 09:31:04] KC: you just copied and pasted that wont work
+[9/5/22, 09:31:34] ‪+263 78 232 2587‬: okey so it needs the headers ?
+[9/5/22, 09:32:14] KC: read code and understand it. change fields that need to be edited
+[9/5/22, 09:35:41] ‪+263 78 232 2587‬: after editting the code its now giving error : Problems creating SAAJ object model
+‎[9/5/22, 09:36:04] ‪+263 78 232 2587‬: ‎image omitted
+[9/5/22, 09:36:25] ‪+263 78 232 2587‬: <x:Envelope
+    xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:apa="http://apace.systems/apacewebservices/"
+    xmlns:urn="urn:apace:member:format:1.0">
+    <x:Header>
+        <apa:secureToken>eb4eeb1e9e03493e2d1db0e524c7da98f0bb2a11ad991335d0ee038560704906</apa:secureToken>
+    </x:Header>
+
+
+<x:Body xmlns:x="http://schemas.xmlsoap.org/soap/envelope/">
+    <apa:process xmlns:apa="http://apace.systems/apacewebservices/">
+        <apa:request>
+           <ns3:BiometricEnrollment xmlns:ns3="urn:apace:biometric:format:1.1">
+    <ns3:Request>
+        <ns3:Transaction>
+            <ns3:VersionNumber xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">1.1</ns3:VersionNumber>
+            <ns3:Type>REQ</ns3:Type>
+            <ns3:Number>DRMS-4543-1661426551910-50</ns3:Number>
+            <ns3:SystemIdentifier>WCHMS</ns3:SystemIdentifier>
+            <ns3:DestinationCode>CMPUZWA</ns3:DestinationCode>
+            <ns3:CountryCode>ZW</ns3:CountryCode>
+            <ns3:Timestamp TimeZone="Africa/Harare">20220825132231</ns3:Timestamp>
+            <ns3:TestIndicator>Y</ns3:TestIndicator>
+            <ns3:User>18230/18230</ns3:User>
+        </ns3:Transaction>
+        <ns3:Client NumberOfBioRecords="10">
+            <ns3:Action>ENROL</ns3:Action>
+            <ns3:ClientCodeType>MED</ns3:ClientCodeType>
+            <ns3:ClientCode>CIHGZW^11469172 ^01</ns3:ClientCode>
+            <ns3:OverrideIndicator>N</ns3:OverrideIndicator>
+            <ns3:BiometricData SequenceNumber="1">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>LI</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAACoAAABBAEsAMUAxQEAAABbF0BxABsRAIDuACIEAEBQAC0bAIDOADGHAEDCAD8HAECgAF4HAEBiAGAXAIAtAGMeAEDsAG3xAIC1AHcAAEAZAH2nAIA7AJOoAECFAJUQAEBQALaqAIDhALrbAEDJAL3dAICYAMAHAEAmAMgpAID8ANbQAEAWAO2zAEDkAPvGAEAnAQi7AEBuARo9AAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="2">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>LM</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAAC0AAABBAEsAMUAxQEAAABXGYDQAB+JAEC7ACcHAECvADSUAEBwADchAIDqAEGCAIDqAE77AIDTAFv+AICiAGQXAEBNAG2qAEDnAHXbAEBtAIWsAEDDAJfDAEDLAJ7NAIC4AKW5AIDEAKbAAEDfALPHAIB0ALa4AEDSALpHAEDDAL1GAEB5ANnAAEDSAOEyAEBAAOS7AICSAPHQAEC/APrxAIBeARDHAAAA</ns3:Data>
+            </
+            <ns3:BiometricData SequenceNumber="3">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>LP</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAACWAAABBAEsAMUAxQEAAABTFEB+ABuNAIArACsoAEAcADGnAEBsADUVAEB2AE0KAIChAF30AIAoAF8eAIBsAIoRAIBTAKSnAEByAKqnAIB3AK+vAEB7ALa1AIA0ALcsAEBxAMYzAEC9ANK7AIBbAOErAEDIAOW7AEB3AP+eAIBOAQYeAEBdAR4VAAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="4">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>LR</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAAD2AAABBAEsAMUAxQEAAABcJEBDAByiAIAxAC0kAIBZAD8aAIArAEOiAEBPAE2kAIDFAFprAIAqAFwlAEDDAGPeAECtAHl7AEBhAIKoAECiAJvGAECZAJ2sAECeAJ+uAECnAJ/KAIB7AKGyAECfAKe7AED2AKfHAECOALMuAEBGALOxAIBdALi1AECoAMM4AIC2ANSyAECWANU4AIAoAOCxAICUAOA6AIA9AOC1AEBSAPLGAIDWAPO7AEC8APesAEAeAPiqAICmAPiWAIDpAQC/AEAsAQ29AEB3AQ/nAEC9ARCoAECTARl9AAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="5">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>LT</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAADAAAABBAEsAMUAxQEAAABSG0CRABURAEDaACDsAECaAESWAECNAEYVAIC+AFD/AEBhAFGhAIDrAFFaAID2AGPMAECjAGqdAECIAG8fAIC/AHWyAIDeAHjAAICtAHmuAEAkAJSdAEDIAJizAIA0AJyrAIBjAKClAIBIAKkiAED0ALK4AECxAL2qAEAcAMkeAEBRAM4aAIAyAM4VAIAZANSUAEA0AO0QAEDQAO+oAIBSAQ0JAAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="6">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>RI</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAADYAAABBAEsAMUAxQEAAABjH0AzAAx4AICsABJvAEAeADGDAECeADJ4AEDlADbsAIARAD0AAEAxAEp9AEDfAFRuAIBrAGF8AIDkAG7uAIAXAIGRAEC2AJJzAIDmAJbuAIDaAJ/oAEBvAK6GAICXALl7AIDJAMFlAECJAML1AICCANZ5AEDKAN7dAED6AOnQAEBfAO+iAECQAPDkAEB+APbnAEDhAPpbAEDSAP5fAEAPAP64AECuAQhkAEBnAQrNAIDpAQxzAEDeASN7AAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="7">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>RM</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAADGAAABBAEsAMUAxQEAAABQHIBoAA98AEBQABGKAIBDADWgAEBLADoUAICnADt1AEB3AE2KAECbAFr0AEA8AGIcAIBqAGMJAICkAHdzAEBEAHunAEC5AIHbAECHAIKNAECkAJrUAECWAJvRAIBMAKS1AIDQAKfMAECCAKjAAECsAKpRAEDJAK9QAECvALHNAECiALhNAEB2ANLHAIDvANnGAIBIANvDAICSAOdGAEDTAOfAAECIAPlHAAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="8">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>RP</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAACuAAABBAEsAMUAxQEAAABYGECzAAveAEBYACp1AEDGAC9bAECOAEZhAEC4AExbAEBVAFeAAEApAF2kAEAtAJK4AIDcAJdXAEBRAJjDAIDIAKXWAIBSAKfGAEBvAKvaAEBiAK7UAIAyALLDAEB9AL9aAIDZAMBXAIB2AMLXAEC5AMtUAEB0AM1VAIBPAM/JAIB8AQNXAEBQAQvaAECiARRpAAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="9">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>RR</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAADGAAABBAEsAMUAxQEAAABSHEBnABwTAEDeABxhAECsACppAECRAEF9AIDMAETRAECXAFzjAECIAGPGAEB6AGO7AECEAGrDAECmAGphAIBHAHO8AIBxAHbJAEB4AHc9AIBrAJPHAICzAKhKAEDZAK3GAIDxAK7HAIC8ALtEAEC1AMJQAEDFAM09AEDEANKkAIC1ANRfAEBVANjKAIDGAOYcAECiAQbuAEC8AQkAAEDOARsGAEC6ASJ4AAAA</ns3:Data>
+            </ns3:BiometricData>
+            <ns3:BiometricData SequenceNumber="10">
+                <ns3:Type>FPI</ns3:Type>
+                <ns3:Indicator>RT</ns3:Indicator>
+                <ns3:Data>Rk1SACAyMAAAAACcAAABBAEsAMUAxQEAAABUFYCeACD0AEDJACtoAID2AD5eAICzAEhpAEBCAFeuAIB+AGeKAEBtAGkKAEDUAGrdAECAAH69AECGAIHQAEB9AJ3QAECwAKrRAEBzALXQAIBVALXDAEC+AMNYAEA6AMZAAIBAAMvFAECVAOHZAECHAPtRAEBiAQDRAEDUARduAAAA</ns3:Data>
+            </ns3:BiometricData>
+        </ns3:Client>
+    </ns3:Request>
+</ns3:BiometricEnrollment>
+        </apa:request>
+    </apa:process>
+</x:Body>
+</x:Envelope>
+[9/5/22, 09:37:18] KC: is this your systems identifier
+<ns3:SystemIdentifier>WCHMS</ns3:SystemIdentifier>
+[9/5/22, 09:37:47] ‪+263 78 232 2587‬: yes
+[9/5/22, 09:48:57] KC: read your documentation again
+[9/5/22, 09:49:24] ‪+263 78 232 2587‬: i did bro
+[9/5/22, 09:49:37] KC: cross check with your existing code working
+[9/5/22, 09:49:41] ‪+263 78 232 2587‬: im sure you see all the codes wch are working are the ones you are sending
+[9/5/22, 09:53:15] KC: you have to structure your request using the correct vendor code and token and any other fields then make a request
+[9/5/22, 09:54:39] ‪+263 78 232 2587‬: thats exactly what i did but i think the xml format is wrong. let me send you my working memberlookup code
+[9/5/22, 09:54:46] ‪+263 78 232 2587‬: <x:Envelope
+    xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:apa="http://apace.systems/apacewebservices/"
+    xmlns:urn="urn:apace:member:format:1.0">
+    <x:Header>
+        <apa:secureToken>eb4eeb1e9e03493e2d1db0e524c7da98f0bb2a11ad991335d0ee038560704906</apa:secureToken>
+    </x:Header>
+
+
+<x:Body xmlns:x="http://schemas.xmlsoap.org/soap/envelope/">
+    <apa:process xmlns:apa="http://apace.systems/apacewebservices/">
+        <apa:request>
+            <urn:Member xmlns:urn="urn:apace:member:format:1.0">
+                <urn:Request>
+                    <urn:Transaction>
+                        <urn:VersionNumber>1.0</urn:VersionNumber>
+                        <urn:Number>24892348345</urn:Number>
+                        <urn:SystemIdentifier>WCHMS</urn:SystemIdentifier>
+                        <urn:DestinationCode>CMPUZWA</urn:DestinationCode>
+                        <urn:ClientCountryCode>ZW</urn:ClientCountryCode>
+                        <urn:Timestamp TimeZone="Africa/Harare">20211124153406</urn:Timestamp>
+                        <urn:TestIndicator>Y</urn:TestIndicator>
+                        <urn:User>698437/mziwani</urn:User>
+                    </urn:Transaction>
+                    <urn:MembershipLookup>
+                        <urn:IncludeDetail>Y</urn:IncludeDetail>
+                        <urn:Funder>CMPUZW</urn:Funder>
+                        <urn:WithMembershipNumber>
+                            <urn:MembershipNumber>201000594</urn:MembershipNumber>
+                            <urn:DependentCode>00</urn:DependentCode>
+                        </urn:WithMembershipNumber>
+                    </urn:MembershipLookup>
+                </urn:Request>
+            </urn:Member>
+        </apa:request>
+    </apa:process>
+</x:Body>
+</x:Envelope>
+[9/5/22, 09:55:18] ‪+263 78 232 2587‬: check the code format . its diffrerent from the one i used on biometric requests
+[9/5/22, 13:23:48] ‪+263 78 232 2587‬: hi bro
+[9/5/22, 13:23:59] KC: HI
+[9/5/22, 13:24:26] ‪+263 78 232 2587‬: do you have any sample code i can use on biometric submittion
+[9/5/22, 13:24:43] ‪+263 78 232 2587‬: i tried all the tricks but its not working
+[9/5/22, 13:25:22] KC: which xmls are now working on your end
+[9/5/22, 13:25:47] ‪+263 78 232 2587‬: only member details request
+[9/5/22, 13:25:57] KC: member lookup
+member verification
+member enrollment
+[9/5/22, 13:26:10] ‪+263 78 232 2587‬: member lookup
+[9/5/22, 13:26:30] ‪+263 78 232 2587‬: havent tried verification or enrollment
+[9/5/22, 13:26:46] KC: <x:Envelope
+    xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:apa="http://apace.systems/apacewebservices/"
+    xmlns:urn="urn:apace:biometric:format:1.1">
+    <x:Header>
+        <apa:secureToken>your toke</apa:secureToken>
+    </x:Header>
+    <x:Body>
+        <apa:process>
+            <apa:request>
+                <urn:BiometricEnrollment>
+                    <urn:Request>
+                        <urn:Transaction>
+                            <urn:VersionNumber>1.1</urn:VersionNumber>
+                            <urn:Type>REQ</urn:Type>
+                            <urn:Number>24892348347</urn:Number>
+                            <urn:SystemIdentifier>VENDORCODE</urn:SystemIdentifier>
+                            <urn:DestinationCode>CMPUZWA</urn:DestinationCode>
+                            <urn:CountryCode>ZW</urn:CountryCode>
+                            <urn:Timestamp TimeZone="Africa/Harare">20211124153406</urn:Timestamp>
+                            <urn:TestIndicator>Y</urn:TestIndicator>
+                            <urn:User>62359/mziwani</urn:User>
+                        </urn:Transaction>
+                        <urn:Client NumberOfBioRecords="1">
+                            <urn:Action>VERIFY</urn:Action>
+                            <urn:ClientCodeType>MED</urn:ClientCodeType>
+                            <urn:ClientCode>CMPUZW^2201003591^00</urn:ClientCode>
+                            <urn:ClientSubCode>00</urn:ClientSubCode>
+                            <urn:OverrideIndicator>N</urn:OverrideIndicator>
+                            <urn:OverrideReason>NA</urn:OverrideReason>
+                            <urn:BiometricData SequenceNumber="1">
+                                <urn:Type>FPI</urn:Type>
+                                <urn:Indicator>RT</urn:Indicator>
+                                <urn:Data>Rk1SACAyMAAAAACcAAABBAEsAMUAxQEAABBjFYBPABgiAEANAB6oAECQADYXAEBJADweAIC5AEEBAEBiAEedAECHAGgQAIBCAHYiAIB2AHmWAEC/AHr7AIDVAHp5AEAVAI0oAIBjAJMiAECVAKaNAEA6ALAmAEDoANL4AIASANinAEBnAOghAEC9AOqGAEAoAPElAEDAAQaUAAAA</urn:Data>
+                            </urn:BiometricData>
+                        </urn:Client>
+                    </urn:Request>
+                </urn:BiometricEnrollment>
+            </apa:request>
+        </apa:process>
+    </x:Body>
+</x:Envelope>
+[9/5/22, 13:27:04] KC: member verification
+[9/5/22, 13:27:14] ‪+263 78 232 2587‬: okey
+[9/5/22, 13:30:07] ‪+263 78 232 2587‬: this code is giving me an error
+‎[9/5/22, 13:30:30] ‪+263 78 232 2587‬: ‎image omitted
+[9/5/22, 13:31:12] ‪+263 78 232 2587‬: https://test-submit.health263.systems:8081/apacewebservices/AMF1_0?wsdl
+[9/5/22, 13:31:25] ‪+263 78 232 2587‬: thats the url im posting to
+[9/5/22, 13:32:56] ‪+263 78 232 2587‬: Unmarshalling Error: cvc-complex-type.2.4.a: Invalid content was found starting with element 'urn:BiometricEnrollment'. One of '{"urn:apace:member:format:1.0":Member}' is expected.
+[9/5/22, 13:39:16] KC: Use ZMF
+[9/5/22, 13:39:59] ‪+263 78 232 2587‬: zmf ?
+[9/5/22, 13:40:00] KC: Thats for member
+[9/5/22, 13:40:18] KC: Refer to page 10 in document
+[9/5/22, 13:40:44] ‪+263 78 232 2587‬: ⦁	ZW:
+Claim: https://test-submit.health263.systems:8081/apacewebservices/ZMF?wsdl
+BiometricEnrollment: https://test-submit.health263.systems:8081/apacewebservices/ABF1_1?wsdl
+Member: https://test-submit.health263.systems:8081/apacewebservices/AMF1_0?wsdl
+[9/5/22, 13:40:54] ‪+263 78 232 2587‬: these are the only urls i got
+‎[9/5/22, 13:41:20] ‪+263 78 232 2587‬: ‎image omitted
+[9/5/22, 13:42:09] KC: This request is a membership verification its using biometric so use ABF
+[9/5/22, 13:43:20] ‪+263 78 232 2587‬: its working now
+[9/5/22, 13:45:25] ‪+263 78 232 2587‬: so i guess im left with member enrollment
+[9/5/22, 13:45:46] ‪+263 78 232 2587‬: and then claims
+[9/6/22, 08:15:52] ‪+263 78 232 2587‬: Hi collet
+[9/6/22, 08:22:31] KC: HOW ARE YOU
+[9/6/22, 08:22:58] ‪+263 78 232 2587‬: im good my brother and you how are you doing this morning
+[9/6/22, 08:23:36] ‪+263 78 232 2587‬: the code you sent yesterday is working okey im only left with enrolment and claims
+[9/6/22, 08:23:48] ‪+263 78 232 2587‬: do you have sample code i can work with
+[9/6/22, 08:23:55] ‪+263 78 232 2587‬: thats the only part left
+[9/6/22, 08:25:00] KC: i sent you the enrollment
+[9/6/22, 08:25:27] ‪+263 78 232 2587‬: what about claims
+[9/6/22, 08:25:40] ‪+263 78 232 2587‬: i only have member lookup and verification
+[9/6/22, 08:26:34] KC: ☝🏽
+[9/6/22, 08:26:43] ‪+263 78 232 2587‬: and yesterday you mensioned something about ZMF. on the documentation i have its not there
+[9/6/22, 08:28:30] ‪+263 78 232 2587‬: i tried yhis one its not working..... i think you missed a tag coz if you check the first tag <ns3:BiometricEnrollment> is closing with </ns3BiometricData>
+[9/6/22, 09:03:01] KC: thats a sample you have to get the idea from that and use the knowledge learnt from the API documentation.
+[9/6/22, 09:07:12] ‪+263 78 232 2587‬: i did try and edit all the fields and couldnt make it to work
+[9/6/22, 09:28:13] KC: <x:Envelope
+    xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:apa="http://apace.systems/apacewebservices/"
+    xmlns:urn="urn:apace:biometric:format:1.1">
+    <x:Header>
+        <apa:secureToken></apa:secureToken>
+    </x:Header>
+    <x:Body>
+        <apa:process>
+            <apa:request>
+                <urn:BiometricEnrollment>
+                    <urn:Request>
+                        <urn:Transaction>
+                            <urn:VersionNumber>1.1</urn:VersionNumber>
+                            <urn:Type>REQ</urn:Type>
+                            <urn:Number>24892348347</urn:Number>
+                            <urn:SystemIdentifier></urn:SystemIdentifier>
+                            <urn:DestinationCode>CMPUZWA</urn:DestinationCode>
+                            <urn:CountryCode>ZW</urn:CountryCode>
+                            <urn:Timestamp TimeZone="Africa/Harare">20211124153406</urn:Timestamp>
+                            <urn:TestIndicator>Y</urn:TestIndicator>
+                            <urn:User>62359/mziwani</urn:User>
+                        </urn:Transaction>
+                         <urn:Client NumberOfBioRecords="6">
+                        <urn:Action>ENROL</urn:Action>
+                        <urn:ClientCodeType>MED</urn:ClientCodeType>
+                        <urn:ClientCode>BONVZW^110901784^02</urn:ClientCode>
+                        <urn:ClientSubCode>02</urn:ClientSubCode>
+                        <urn:OverrideIndicator>N</urn:OverrideIndicator>
+                        <urn:OverrideReason>NA</urn:OverrideReason>
+                        <urn:BiometricData SequenceNumber="1">
+              <urn:Type>FPI</urn:Type>
+              <urn:Indicator>LT</urn:Indicator>
+              <urn:Data>Rk1SACAyMAAAAAE+AAABBAEsAMUAxQEAABBaMIBjABARAIDzAB/rAEDqADtxAECVAEiRAEBXAEygAEDFAFLuAICRAFUKAIB1AFYYAED0AFroAECwAFv4AEDNAFxuAIBIAGAfAIBqAGCeAECyAHPxAEDUAHPkAIBwAHkYAECVAH4AAIDXAInbAIB/AIwJAIC2AJPeAICkAJTdAICNAJfvAEC4AKPKAECNAKSgAEDaAKvQAIAxAK21AEBEAK67AECfALC7AEBQALXGAEByALckAECMALqdAIB2ALwUAIBkAMA4AIDjAMXJAIBZAM5KAIC0ANC/AECqANusAEDpAN7GAEBoAN94AICeAN+iAED1AOPNAEDdAObDAECTAO4hAIDOAO+4AEBAAPDlAIA2AQDaAIBaAQp7AIDmARi5AAAA</urn:Data>
+            </urn:BiometricData><urn:BiometricData SequenceNumber="2">
+              <urn:Type>FPI</urn:Type>
+              <urn:Indicator>LI</urn:Indicator>
+              <urn:Data>Rk1SACAyMAAAAADYAAABBAEsAMUAxQEAABBWH0ChABOQAECuACiQAEByACsiAECUADYYAEDzADxkAICgAEMNAEDTAE7nAECpAGEGAEBmAGgoAEDdAHNpAEDTAHXkAICiAHoGAECEAH0iAIDKAIPWAECnAJfUAICJAJclAECiAJ7GAICaAKi2AECqAKjAAIC6AKrJAECOAK6oAEDIAL/HAEDWAMDWAIC4AMO7AIDNANfFAICJANgmAEDsAOdlAECvAPEiAICHAPYbAIC0AQIVAIDTAQv/AAAA</urn:Data>
+            </urn:BiometricData><urn:BiometricData SequenceNumber="3">
+              <urn:Type>FPI</urn:Type>
+              <urn:Indicator>LM</urn:Indicator>
+              <urn:Data>Rk1SACAyMAAAAAC0AAABBAEsAMUAxQEAABBeGYBHABoDAEBqADT1AEAmAEMaAEBOAGcDAICXAGlnAIBwAHZ2AIA+AH0aAIBYAIz7AIA7AJEUAIDRAJhYAEAIAJyuAIBlAKJvAEAcAKYpAEBHAKwDAIAoALkkAIA/ALkBAEBmAM/UAIBLAN65AIA8AOSvAIBYAO+7AEBoAO/HAIC7AQFeAEBpAQqzAIB/ARxyAECWARxpAAAA</urn:Data>
+            </urn:BiometricData><urn:BiometricData SequenceNumber="4">
+              <urn:Type>FPI</urn:Type>
+              <urn:Indicator>RT</urn:Indicator>
+              <urn:Data>Rk1SACAyMAAAAAD8AAABBAEsAMUAxQEAABBhJUAjACuAAIB8ADBsAEArAFWGAICVAFbjAECLAGhsAIDsAGpkAEBXAHN7AICOAHTqAIAZAHsNAIBhAH72AICjAI9kAIBCAJKAAEBCAJ0AAICCAKxsAIDBAK3aAED2AK3aAEAeALqWAEBtAMZsAEDpAMxaAEBlANNxAIA0ANyYAIByAOTaAICWAOfTAEBCAO2dAIDTAPHXAEAQAPGxAIBKAP2yAICBAQFNAECKAQLDAEApAQS7AEBSAQXeAEC/AQrQAICsAQvJAIA4AQu9AICfAQzDAEBmARhkAIBuARlNAAAA</urn:Data>
+            </urn:BiometricData><urn:BiometricData SequenceNumber="5">
+              <urn:Type>FPI</urn:Type>
+              <urn:Indicator>RI</urn:Indicator>
+              <urn:Data>Rk1SACAyMAAAAACoAAABBAEsAMUAxQEAABBYF0BoAC2AAECyAE/nAEDCAH9fAIDRAIjeAICMAKZrAICqALBaAECHALp7AICYAM5nAEBnAOKoAICEAOazAICbAOdbAIB8APC/AECNAPTUAIDEAPTJAIBaAPWrAIBuAPq8AIBmAQuyAICXAQ5VAIA7ARAhAEDJARfnAEBOARgiAIC9AR1YAICEASVsAAAA</urn:Data>
+            </urn:BiometricData><urn:BiometricData SequenceNumber="6">
+              <urn:Type>FPI</urn:Type>
+              <urn:Indicator>RM</urn:Indicator>
+              <urn:Data>Rk1SACAyMAAAAAB+AAABBAEsAMUAxQEAABBbEICTAFxfAEBQAHCQAICEAHVpAEDkAINbAIA6AIaaAID1AJdeAIBXAJgEAEBoAJx4AIA4AKmnAIBkALynAIAfAMyyAEBnANPDAIAvAOfAAEAgAOi7AECAAPTQAICHAQ5QAAAA</urn:Data>
+            </urn:BiometricData>
+                      </urn:Client>
+                    </urn:Request>
+                </urn:BiometricEnrollment>
+            </apa:request>
+        </apa:process>
+    </x:Body>
+</x:Envelope>
+[9/6/22, 09:28:43] KC: i can not continue sending you code. you  need to figure it out from that end
+[9/6/22, 09:29:18] ‪+263 78 232 2587‬: It's not possible boss given the documentation I have
+[9/6/22, 09:29:43] ‪+263 78 232 2587‬: Can you send me a proper documentation
+[9/6/22, 09:30:06] KC: i have sent that same documentation to over 20 developers and they face no challenges
+[9/6/22, 09:30:33] ‪+263 78 232 2587‬: I guess it's me who's facing these challenges
+[9/6/22, 09:33:01] ‪+263 78 232 2587‬: Let me send you the one I have you will see all the code
+[9/6/22, 09:33:35] KC: did you try this one ?
+‎[9/6/22, 09:33:51] ‪+263 78 232 2587‬: Provider Integration Documentation V1.1_Capesso.docx ‎document omitted
+[9/6/22, 09:34:17] ‪+263 78 232 2587‬: no code in there is working out of the box
+[9/19/22, 08:58:02] ‪+263 78 232 2587‬: hi bro
+[9/19/22, 09:32:36] KC: HOW ARE YOU
+[9/19/22, 09:35:57] ‪+263 78 232 2587‬: im doing great bro
+[9/19/22, 09:39:48] KC: Better
+[9/27/22, 09:53:42] ‪+263 78 232 2587‬: hi
+[9/27/22, 12:01:04] KC: Hi Zvirisei
+[9/27/22, 12:01:35] ‪+263 78 232 2587‬: good good
+[9/27/22, 12:02:02] ‪+263 78 232 2587‬: haaaa i tried making the claims code work but im failing bro can you help
+[9/27/22, 12:02:23] ‪+263 78 232 2587‬: i went throught the docs countless times still im failing
+[9/27/22, 12:02:31] KC: Share your request
+[9/27/22, 12:02:45] ‪+263 78 232 2587‬: okey
+[9/27/22, 12:07:14] ‪+263 78 232 2587‬: <x:Envelope
+    xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:apa="http://apace.systems/apacewebservices/"
+    xmlns:urn="urn:apace:ZietoClaim:format:1.1">
+    <x:Header>
+        <apa:secureToken>eb4eeb1e9e03493e2d1db0e524c7da98f0bb2a11ad991335d0ee038560704906</apa:secureToken>
+    </x:Header>
+    <x:Body>
+        <apa:process>
+            <apa:request>
+              <ns1:Claim xmlns:ns1="http://zieto.co.za/claim/zmf"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://zieto.co.za/claim/zmf file:ZietoClaim_2_1.xsd">
+  <Request>
+
+		 <urn:Transaction>
+                            <urn:VersionNumber>1.1</urn:VersionNumber>
+                            <urn:Type>REQ</urn:Type>
+                            <urn:Number>24892348347</urn:Number>
+                            <urn:SystemIdentifier>WCHMS</urn:SystemIdentifier>
+                            <urn:DestinationCode>CMPUZWA</urn:DestinationCode>
+                            <urn:CountryCode>ZW</urn:CountryCode>
+                            <urn:Timestamp TimeZone="Africa/Harare">20211124153406</urn:Timestamp>
+                            <urn:TestIndicator>Y</urn:TestIndicator>
+                            <urn:User>698437/mziwani</urn:User>
+                        </urn:Transaction>
+
+    <Provider>
+      <Role>SP</Role>
+      <PracticeNumber>0511236099999</PracticeNumber>
+      <GroupPracticeNumber>0602321234567</GroupPracticeNumber>
+      <PracticeName>Group Practice Name</PracticeName>
+      <Contact>
+        <Name>G. Peters</Name>
+        <TelephoneNumber>012-6548989</TelephoneNumber>
+        <E-MailAdress>gpeters@mail.co.za</E-MailAdress>
+      </Contact>
+    </Provider>
+    <Member>
+      <MedicalSchemeNumber>mem100</MedicalSchemeNumber>
+      <MedicalSchemeName>SCHEMECODE</MedicalSchemeName>
+      <MedicalSchemePlan>COMPREHENSIVE PLAN</MedicalSchemePlan>
+      <MedicalSchemeOption>NETWORK OPTION</MedicalSchemeOption>
+      <Personal>
+        <Title>Mrs</Title>
+        <Surname>Smith</Surname>
+        <FirstName>Jane</FirstName>
+        <Initials>J</Initials>
+        <Gender>F</Gender>
+        <IDNumber>7605280000000</IDNumber>
+        <IDType>ID</IDType>
+        <DateOfBirth>19760528</DateOfBirth>
+      </Personal>
+    </Member>
+    <Patient>
+      <DependantCode>00</DependantCode>
+      <NewBornIndicator>N</NewBornIndicator>
+      <Personal>
+        <Title>Mrs</Title>
+        <Surname>Smith</Surname>
+        <FirstName>Jane</FirstName>
+        <Initials>J</Initials>
+        <Gender>F</Gender>
+        <IDNumber>7605280000000</IDNumber>
+        <IDType>ID</IDType>
+        <DateOfBirth>19760528</DateOfBirth>
+      </Personal>
+    </Patient>
+    <ClaimHeader>
+      <ClaimNumber>Rx123</ClaimNumber>
+      <ClaimDateTime>20080414101232</ClaimDateTime>
+      <TotalServices>3</TotalServices>
+      <TotalConsumables>1</TotalConsumables>
+      <WhomToPay>P</WhomToPay>
+      <InHospitalIndicator>N</InHospitalIndicator>
+      <MVAIndicator>N</MVAIndicator>
+      <IODIndicator>N</IODIndicator>
+      <AccidentIndicator>N</AccidentIndicator>
+      <EmergencyIndicator>N</EmergencyIndicator>
+      <WCANo></WCANo>
+      <BatchNumber></BatchNumber>
+      <Authorisation>
+        <PreAuthorisationNumber></PreAuthorisationNumber>
+        <AuthorisationNumber>12345</AuthorisationNumber>
+        <AuthorisationDate>20080414</AuthorisationDate>
+      </Authorisation>
+      <Admission>
+        <ActualDateTime>20080414101232</ActualDateTime>
+      </Admission>
+      <Discharge>
+        <ActualDateTime>20080414101232</ActualDateTime>
+        <DischargeCode></DischargeCode>
+      </Discharge>
+      <Message>
+        <Type>I</Type>
+        <Code>10009</Code>
+        <Description>Claim Request Message</Description>
+      </Message>
+      <TotalValues>
+        <GrossAmount>360000</GrossAmount>
+        <NettAmount>360000</NettAmount>
+        <ReceiptAmount>0</ReceiptAmount>
+        <LevyAmount>0</LevyAmount>
+        <DiscountAmount>0</DiscountAmount>
+        <GenericSurchargeAmount>0</GenericSurchargeAmount>
+        <PatientPayAmount>0</PatientPayAmount>
+        <OverChargeAmount>0</OverChargeAmount>
+        <ContainerFeeAmount>0</ContainerFeeAmount>
+        <DispensingFeeAmount>0</DispensingFeeAmount>
+        <ProfessionalFeeAmount>0</ProfessionalFeeAmount>
+        <VarianceAmount>0</VarianceAmount>
+      </TotalValues>
+    </ClaimHeader>
+    <Service>
+      <Type>T</Type>
+      <Number>1</Number>
+      <CodeSet>NHRPL</CodeSet>
+      <Code>57999</Code>
+      <CodeDescription>Minor Theatre</CodeDescription>
+      <ChargeableUnit>M</ChargeableUnit>
+      <ChargeableQuantity>12000</ChargeableQuantity>
+      <SectionType>T</SectionType>
+      <ServiceStartDateTime>20080414105034</ServiceStartDateTime>
+      <ServiceEndDateTime>20080414125034</ServiceEndDateTime>
+      <ExternalReferenceNumber></ExternalReferenceNumber>
+      <BenefitCode>AC</BenefitCode>
+      <NumberOfConsumables>0</NumberOfConsumables>
+      <Identifier>1</Identifier>
+      <NumberOfLaboratoryRecords>0</NumberOfLaboratoryRecords>
+      <NumberOfToothRecords>0</NumberOfToothRecords>
+      <NumberOfDentalLaboratoryRecords>0
+      </NumberOfDentalLaboratoryRecords>
+      <NumberOfOptometryRecords>0</NumberOfOptometryRecords>
+      <WhomToPay>P</WhomToPay>
+      <Authorisation>
+        <AuthorisationNumber>1234</AuthorisationNumber>
+        <AuthorisationDate>20080414</AuthorisationDate>
+      </Authorisation>
+      <Procedure>
+        <Stage>P</Stage>
+        <CodeSet>CPT</CodeSet>
+        <Code>43235</Code>
+        <Description>Gastroscopy</Description>
+      </Procedure>
+      <Provider>
+        <Role>AN</Role>
+        <PracticeNumber>0100007589999</PracticeNumber>
+        <GroupPracticeNumber></GroupPracticeNumber>
+        <PracticeName>Dr Anaesthetist</PracticeName>
+        <Contact>
+          <Name>Dr. Anaesthetist</Name>
+          <TelephoneNumber>021-12345678</TelephoneNumber>
+          <E-MailAdress></E-MailAdress>
+        </Contact>
+      </Provider>
+      <Provider>
+        <Role>TR</Role>
+        <PracticeNumber>0140007589495</PracticeNumber>
+        <GroupPracticeNumber></GroupPracticeNumber>
+        <PracticeName>Dr Treating and Partners</PracticeName>
+        <Contact>
+          <Name>Dr. Treating</Name>
+          <TelephoneNumber>021-12345678</TelephoneNumber>
+          <E-MailAdress></E-MailAdress>
+        </Contact>
+      </Provider>
+      <Diagnosis>
+        <Stage>P</Stage>
+        <CodeSet>ICD</CodeSet>
+        <Code>E98.1</Code>
+      </Diagnosis>
+      <SubTotalValues>
+        <GrossAmount>50000</GrossAmount>
+        <NettAmount>50000</NettAmount>
+        <ReceiptAmount>0</ReceiptAmount>
+        <LevyAmount>0</LevyAmount>
+        <DiscountAmount>0</DiscountAmount>
+        <GenericSurchargeAmount>0</GenericSurchargeAmount>
+        <PatientPayAmount>0</PatientPayAmount>
+        <OverChargeAmount>0</OverChargeAmount>
+        <ContainerFeeAmount>0</ContainerFeeAmount>
+        <DispensingFeeAmount>0</DispensingFeeAmount>
+        <ProfessionalFeeAmount>0</ProfessionalFeeAmount>
+        <VarianceAmount>0</VarianceAmount>
+      </SubTotalValues>
+      <Message>
+        <Type>I</Type>
+        <Code>10008</Code>
+        <Description>Service request message</Description>
+      </Message>
+      <TotalValues>
+        <GrossAmount>50000</GrossAmount>
+        <NettAmount>50000</NettAmount>
+        <ReceiptAmount>0</ReceiptAmount>
+        <LevyAmount>0</LevyAmount>
+        <DiscountAmount>0</DiscountAmount>
+        <GenericSurchargeAmount>0</GenericSurchargeAmount>
+        <PatientPayAmount>0</PatientPayAmount>
+        <OverChargeAmount>0</OverChargeAmount>
+        <ContainerFeeAmount>0</ContainerFeeAmount>
+        <DispensingFeeAmount>0</DispensingFeeAmount>
+        <ProfessionalFeeAmount>0</ProfessionalFeeAmount>
+        <VarianceAmount>0</VarianceAmount>
+      </TotalValues>
+    </Service>
+    <Service>
+      <Type>T</Type>
+      <Number>2</Number>
+      <CodeSet>NHRPL</CodeSet>
+      <Code>57001</Code>
+      <CodeDescription>Ward Fees</CodeDescription>
+      <ChargeableUnit>D</ChargeableUnit>
+      <ChargeableQuantity>200</ChargeableQuantity>
+      <SectionType>W</SectionType>
+      <ServiceStartDateTime>20080414105034</ServiceStartDateTime>
+      <ServiceEndDateTime>20080416105034</ServiceEndDateTime>
+      <ExternalReferenceNumber></ExternalReferenceNumber>
+      <BenefitCode>AC</BenefitCode>
+      <NumberOfConsumables>0</NumberOfConsumables>
+      <Identifier>2</Identifier>
+      <NumberOfLaboratoryRecords>0</NumberOfLaboratoryRecords>
+      <NumberOfToothRecords>0</NumberOfToothRecords>
+      <NumberOfDentalLaboratoryRecords>0
+      </NumberOfDentalLaboratoryRecords>
+      <NumberOfOptometryRecords>0</NumberOfOptometryRecords>
+      <WhomToPay>P</WhomToPay>
+      <SubTotalValues>
+        <GrossAmount>300000</GrossAmount>
+        <NettAmount>300000</NettAmount>
+        <ReceiptAmount>0</ReceiptAmount>
+        <LevyAmount>0</LevyAmount>
+        <DiscountAmount>0</DiscountAmount>
+        <GenericSurchargeAmount>0</GenericSurchargeAmount>
+        <PatientPayAmount>0</PatientPayAmount>
+        <OverChargeAmount>0</OverChargeAmount>
+        <ContainerFeeAmount>0</ContainerFeeAmount>
+        <DispensingFeeAmount>0</DispensingFeeAmount>
+        <ProfessionalFeeAmount>0</ProfessionalFeeAmount>
+        <VarianceAmount>0</VarianceAmount>
+      </SubTotalValues>
+      <Message>
+        <Type>I</Type>
+        <Code>10008</Code>
+        <Description>Service request message</Description>
+      </Message>
+      <TotalValues>
+        <GrossAmount>300000</GrossAmount>
+        <NettAmount>300000</NettAmount>
+        <ReceiptAmount>0</ReceiptAmount>
+        <LevyAmount>0</LevyAmount>
+        <DiscountAmount>0</DiscountAmount>
+        <GenericSurchargeAmount>0</GenericSurchargeAmount>
+        <PatientPayAmount>0</PatientPayAmount>
+        <OverChargeAmount>0</OverChargeAmount>
+        <ContainerFeeAmount>0</ContainerFeeAmount>
+        <DispensingFeeAmount>0</DispensingFeeAmount>
+        <ProfessionalFeeAmount>0</ProfessionalFeeAmount>
+        <VarianceAmount>0</VarianceAmount>
+      </TotalValues>
+    </Service>
+    <Service>
+      <Type>T</Type>
+      <Number>3</Number>
+      <CodeSet>NHRPL</CodeSet>
+      <Code>57278</Code>
+      <CodeDescription>Ward Stock</CodeDescription>
+      <ChargeableUnit>U</ChargeableUnit>
+      <ChargeableQuantity>100</ChargeableQuantity>
+      <SectionType>R</SectionType>
+      <ServiceStartDateTime>20080414105034</ServiceStartDateTime>
+      <ServiceEndDateTime>20080416105034</ServiceEndDateTime>
+      <ExternalReferenceNumber></ExternalReferenceNumber>
+      <BenefitCode>AC</BenefitCode>
+      <NumberOfConsumables>1</NumberOfConsumables>
+      <Identifier>3</Identifier>
+      <NumberOfLaboratoryRecords>0</NumberOfLaboratoryRecords>
+      <NumberOfToothRecords>0</NumberOfToothRecords>
+      <NumberOfDentalLaboratoryRecords>0
+      </NumberOfDentalLaboratoryRecords>
+      <NumberOfOptometryRecords>0</NumberOfOptometryRecords>
+      <WhomToPay>P</WhomToPay>
+      <SubTotalValues>
+        <GrossAmount>0</GrossAmount>
+        <NettAmount>0</NettAmount>
+        <ReceiptAmount>0</ReceiptAmount>
+        <LevyAmount>0</LevyAmount>
+        <DiscountAmount>0</DiscountAmount>
+        <GenericSurchargeAmount>0</GenericSurchargeAmount>
+        <PatientPayAmount>0</PatientPayAmount>
+        <OverChargeAmount>0</OverChargeAmount>
+        <ContainerFeeAmount>0</ContainerFeeAmount>
+        <DispensingFeeAmount>0</DispensingFeeAmount>
+        <ProfessionalFeeAmount>0</ProfessionalFeeAmount>
+        <VarianceAmount>0</VarianceAmount>
+      </SubTotalValues>
+      <Consumable>
+        <Type>L</Type>
+        <Number>1</Number>
+        <CodeSet>N</CodeSet>
+        <Code>752274066</Code>
+        <Description>Panado 500mg TAB</Description>
+        <Quantity>2000</Quantity>
+        <DaysSupply>2</DaysSupply>
+        <SectionType>R</SectionType>
+        <BenefitCode>AC</BenefitCode>
+        <DispensedDate>20080414</DispensedDate>
+        <WhomToPay>P</WhomToPay>
+        <Authorisation>
+          <PreAuthorisationNumber></PreAuthorisationNumber>
+          <AuthorisationNumber>1234</AuthorisationNumber>
+          <AuthorisationDate>20080414</AuthorisationDate>
+        </Authorisation>
+        <TotalValues>
+          <GrossAmount>10000</GrossAmount>
+          <NettAmount>10000</NettAmount>
+          <ReceiptAmount>0</ReceiptAmount>
+          <LevyAmount>0</LevyAmount>
+          <DiscountAmount>0</DiscountAmount>
+          <GenericSurchargeAmount>0</GenericSurchargeAmount>
+          <PatientPayAmount>0</PatientPayAmount>
+          <OverChargeAmount>0</OverChargeAmount>
+          <ContainerFeeAmount>0</ContainerFeeAmount>
+          <DispensingFeeAmount>0</DispensingFeeAmount>
+          <ProfessionalFeeAmount>0</ProfessionalFeeAmount>
+          <VarianceAmount>0</VarianceAmount>
+        </TotalValues>
+      </Consumable>
+      <TotalValues>
+        <GrossAmount>10000</GrossAmount>
+        <NettAmount>10000</NettAmount>
+        <ReceiptAmount>0</ReceiptAmount>
+        <LevyAmount>0</LevyAmount>
+        <DiscountAmount>0</DiscountAmount>
+        <GenericSurchargeAmount>0</GenericSurchargeAmount>
+        <PatientPayAmount>0</PatientPayAmount>
+        <OverChargeAmount>0</OverChargeAmount>
+        <ContainerFeeAmount>0</ContainerFeeAmount>
+        <DispensingFeeAmount>0</DispensingFeeAmount>
+        <ProfessionalFeeAmount>0</ProfessionalFeeAmount>
+        <VarianceAmount>0</VarianceAmount>
+      </TotalValues>
+    </Service>
+  </Request>
+</ns1:Claim>
+            </apa:request>
+        </apa:process>
+    </x:Body>
+</x:Envelope>
+[9/27/22, 12:08:47] KC: your error is on <urn:Type>REQ</urn:Type> it should CL
+[9/27/22, 12:09:09] ‪+263 78 232 2587‬: okey let me check
+[9/27/22, 12:09:57] ‪+263 78 232 2587‬: <soap:Envelope
+	xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header
+		xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"/>
+		<soap:Body>
+			<soap:Fault>
+				<faultcode>soap:Server</faultcode>
+				<faultstring>Fault occurred while processing.</faultstring>
+			</soap:Fault>
+		</soap:Body>
+	</soap:Envelope>
+[9/27/22, 12:10:08] ‪+263 78 232 2587‬: its giving me this error
+[9/27/22, 12:10:26] KC: <x:Envelope
+  xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:apa=v"http://apace.systems/apacewebservices/"
+  xmlns:zmf="http://zieto.co.za/claim/zmf"
+>
+  <x:Header>
+    <apa:secureToken>putyours</apa:secureToken>
+  </x:Header>
+  <x:Body>
+    <apa:processZMF>
+      <apa:ZMF2_1Request>
+        <zmf:Claim>
+          <zmf:Request>
+            <zmf:Transaction>
+              <zmf:VersionNumber>2.1</zmf:VersionNumber>
+              <zmf:Type>CL</zmf:Type>
+              <zmf:Number>1418</zmf:Number>
+              <zmf:DestinationCode>CMPUZWA</zmf:DestinationCode>
+              <zmf:SoftwareIdentifier>WCHMS</zmf:SoftwareIdentifier>
+              <zmf:OriginalSoftwareIdentifier>CAREMEDSOL</zmf:OriginalSoftwareIdentifier>
+              <zmf:DateTime>20220906105359</zmf:DateTime>
+              <zmf:TransactionLink>NA</zmf:TransactionLink>
+              <zmf:TestClaimIndicator>Y</zmf:TestClaimIndicator>
+              <zmf:CountryISOCode>ZW</zmf:CountryISOCode>
+            </zmf:Transaction>
+            <zmf:Provider>
+              <zmf:Role>SP</zmf:Role>
+              <zmf:PracticeNumber>02291</zmf:PracticeNumber>
+              <zmf:PracticeName>provider_number</zmf:PracticeName>
+            </zmf:Provider>
+            <zmf:Member>
+              <zmf:MedicalSchemeNumber>201000594</zmf:MedicalSchemeNumber>
+              <zmf:MedicalSchemeName>Cellmed Premium USD</zmf:MedicalSchemeName>
+            </zmf:Member>
+            <zmf:Patient>
+              <zmf:DependantCode>00</zmf:DependantCode>
+              <zmf:NewBornIndicator>N</zmf:NewBornIndicator>
+              <zmf:Personal>
+                <zmf:Title>MS</zmf:Title>
+                <zmf:Surname>NYAHUNDA</zmf:Surname>
+                <zmf:FirstName>MEGINA</zmf:FirstName>
+                <zmf:Initials>M</zmf:Initials>
+                <zmf:Gender>F</zmf:Gender>
+                <zmf:IDNumber>22143325F04</zmf:IDNumber>
+                <zmf:IDType>ID</zmf:IDType>
+                <zmf:DateOfBirth>19740201</zmf:DateOfBirth>
+              </zmf:Personal>
+            </zmf:Patient>
+            <zmf:ClaimHeader>
+              <zmf:ClaimNumber>1ru4mde158kwsxjv8b</zmf:ClaimNumber>
+              <zmf:ClaimDateTime>20220906105359</zmf:ClaimDateTime>
+              <zmf:TotalServices>1</zmf:TotalServices>
+              <zmf:TotalConsumables>0</zmf:TotalConsumables>
+              <zmf:WhomToPay>P</zmf:WhomToPay>
+              <zmf:InHospitalIndicator>N</zmf:InHospitalIndicator>
+              <zmf:MVAIndicator>N</zmf:MVAIndicator>
+              <zmf:IODIndicator>N</zmf:IODIndicator>
+              <zmf:AccidentIndicator>N</zmf:AccidentIndicator>
+              <zmf:EmergencyIndicator>N</zmf:EmergencyIndicator>
+              <zmf:DateOfAccident>20220906105359</zmf:DateOfAccident>
+              <zmf:WCANo>NA</zmf:WCANo>
+              <zmf:BatchNumber>NA</zmf:BatchNumber>
+              <zmf:BatchDateTime>20220906105359</zmf:BatchDateTime>
+              <zmf:Authorisation>
+                <zmf:PreAuthorisationNumber>BIOBYPASS</zmf:PreAuthorisationNumber>
+                <zmf:AuthorisationNumber>WRKFW</zmf:AuthorisationNumber>
+              </zmf:Authorisation>
+              <zmf:TotalValues>
+                <zmf:GrossAmount>789</zmf:GrossAmount>
+                <zmf:NettAmount>789</zmf:NettAmount>
+                <zmf:ReceiptAmount>0</zmf:ReceiptAmount>
+                <zmf:LevyAmount>0</zmf:LevyAmount>
+                <zmf:DiscountAmount>0</zmf:DiscountAmount>
+                <zmf:GenericSurchargeAmount>0</zmf:GenericSurchargeAmount>
+                <zmf:PatientPayAmount>0</zmf:PatientPayAmount>
+                <zmf:OverChargeAmount>0</zmf:OverChargeAmount>
+                <zmf:ContainerFeeAmount>0</zmf:ContainerFeeAmount>
+                <zmf:DispensingFeeAmount>0</zmf:DispensingFeeAmount>
+                <zmf:ProfessionalFeeAmount>0</zmf:ProfessionalFeeAmount>
+                <zmf:VarianceAmount>0</zmf:VarianceAmount>
+              </zmf:TotalValues>
+            </zmf:ClaimHeader>
+            <zmf:Service>
+              <zmf:Type>T</zmf:Type>
+              <zmf:Number>1</zmf:Number>
+              <zmf:CodeSet>NHRPL</zmf:CodeSet>
+              <zmf:Code>57248</zmf:Code>
+              <zmf:CodeDescription>Ward Fees</zmf:CodeDescription>
+              <zmf:ChargeableUnit>U</zmf:ChargeableUnit>
+              <zmf:ChargeableQuantity>1</zmf:ChargeableQuantity>
+              <zmf:SectionType>W</zmf:SectionType>
+              <zmf:ServiceStartDateTime>20220906105359</zmf:ServiceStartDateTime>
+              <zmf:ServiceEndDateTime>20220906105359</zmf:ServiceEndDateTime>
+              <zmf:ExternalReferenceNumber>A1223422</zmf:ExternalReferenceNumber>
+              <zmf:BenefitCode>A223</zmf:BenefitCode>
+              <zmf:BenefitDescription>Descr</zmf:BenefitDescription>
+              <zmf:NumberOfConsumables>0</zmf:NumberOfConsumables>
+              <zmf:Identifier>0</zmf:Identifier>
+              <zmf:NumberOfLaboratoryRecords>0</zmf:NumberOfLaboratoryRecords>
+              <zmf:NumberOfToothRecords>0</zmf:NumberOfToothRecords>
+              <zmf:NumberOfDentalLaboratoryRecords>0</zmf:NumberOfDentalLaboratoryRecords>
+              <zmf:NumberOfOptometryRecords>0</zmf:NumberOfOptometryRecords>
+              <zmf:WhomToPay>P</zmf:WhomToPay>
+              <zmf:UpdateIndicator>N</zmf:UpdateIndicator>
+              <zmf:Authorisation>
+                <zmf:PreAuthorisationNumber>BIOBYPASS</zmf:PreAuthorisationNumber>
+                <zmf:AuthorisationNumber>WRKFW</zmf:AuthorisationNumber>
+                <zmf:AuthorisationDate>20211208</zmf:AuthorisationDate>
+              </zmf:Authorisation>
+              <zmf:Procedure>
+                <zmf:Stage>P</zmf:Stage>
+                <zmf:CodeSet>CPT</zmf:CodeSet>
+                <zmf:Code>43235</zmf:Code>
+                <zmf:Description>Gastroscopy</zmf:Description>
+              </zmf:Procedure>
+              <zmf:Provider>
+                <zmf:Role>SP</zmf:Role>
+                <zmf:PracticeNumber>02291</zmf:PracticeNumber>
+                <zmf:PracticeName>provider_number</zmf:PracticeName>
+              </zmf:Provider>
+              <zmf:Diagnosis>
+                <zmf:Stage>P</zmf:Stage>
+                <zmf:CodeSet>ICD</zmf:CodeSet>
+                <zmf:Code>E98.1</zmf:Code>
+              </zmf:Diagnosis>
+              <zmf:SubTotalValues>
+                <zmf:GrossAmount>789</zmf:GrossAmount>
+                <zmf:NettAmount>789</zmf:NettAmount>
+                <zmf:ReceiptAmount>0</zmf:ReceiptAmount>
+                <zmf:LevyAmount>0</zmf:LevyAmount>
+                <zmf:DiscountAmount>0</zmf:DiscountAmount>
+                <zmf:GenericSurchargeAmount>0</zmf:GenericSurchargeAmount>
+                <zmf:PatientPayAmount>0</zmf:PatientPayAmount>
+                <zmf:OverChargeAmount>0</zmf:OverChargeAmount>
+                <zmf:ContainerFeeAmount>0</zmf:ContainerFeeAmount>
+                <zmf:DispensingFeeAmount>0</zmf:DispensingFeeAmount>
+                <zmf:ProfessionalFeeAmount>0</zmf:ProfessionalFeeAmount>
+                <zmf:VarianceAmount>0</zmf:VarianceAmount>
+              </zmf:SubTotalValues>
+              <zmf:Message>
+                <zmf:Type>I</zmf:Type>
+                <zmf:Code>10008</zmf:Code>
+                <zmf:Description>Service request message</zmf:Description>
+              </zmf:Message>
+              <zmf:TotalValues>
+                <zmf:GrossAmount>789</zmf:GrossAmount>
+                <zmf:NettAmount>789</zmf:NettAmount>
+                <zmf:ReceiptAmount>0</zmf:ReceiptAmount>
+                <zmf:LevyAmount>0</zmf:LevyAmount>
+                <zmf:DiscountAmount>0</zmf:DiscountAmount>
+                <zmf:GenericSurchargeAmount>0</zmf:GenericSurchargeAmount>
+                <zmf:PatientPayAmount>0</zmf:PatientPayAmount>
+                <zmf:OverChargeAmount>0</zmf:OverChargeAmount>
+                <zmf:ContainerFeeAmount>0</zmf:ContainerFeeAmount>
+                <zmf:DispensingFeeAmount>0</zmf:DispensingFeeAmount>
+                <zmf:ProfessionalFeeAmount>0</zmf:ProfessionalFeeAmount>
+                <zmf:VarianceAmount>0</zmf:VarianceAmount>
+              </zmf:TotalValues>
+            </zmf:Service>
+          </zmf:Request>
+        </zmf:Claim>
+      </apa:ZMF2_1Request>
+    </apa:processZMF>
+  </x:Body>
+</x:Envelope>
+[9/27/22, 12:10:37] KC: TRY THE ATTACHED REQUEST
+[9/27/22, 12:10:46] ‪+263 78 232 2587‬: okey
+[9/27/22, 12:11:44] KC: you sent a verification request and changed from REQ to CL
+[9/27/22, 12:12:10] ‪+263 78 232 2587‬: okey
+[9/27/22, 12:12:32] KC: <zmf:OriginalSoftwareIdentifier>CAREMEDSOL</zmf:OriginalSoftwareIdentifier>
+change the name caremedsol to WCHMS on your side
+[9/27/22, 12:14:38] ‪+263 78 232 2587‬: okey another issue is the member status request its giving me status code 200 but its not giving me any member status details
+[9/27/22, 12:15:57] KC: do the request again
+[9/27/22, 12:16:18] ‪+263 78 232 2587‬: <soap:Envelope
+	xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Header
+		xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"/>
+		<soap:Body>
+			<ns2:processResponse
+				xmlns:ns2="http://apace.systems/apacewebservices/"
+				xmlns:ns3="urn:apace:biometric:format:1.1">
+				<ns2:response>
+					<ns3:BiometricEnrollment>
+						<ns3:Response>
+							<ns3:TransactionResponse>
+								<ns3:VersionNumber>1.1</ns3:VersionNumber>
+								<ns3:Type>RES</ns3:Type>
+								<ns3:Number>24892348347</ns3:Number>
+								<ns3:Timestamp TimeZone="Africa/Harare">20220927121600</ns3:Timestamp>
+							</ns3:TransactionResponse>
+							<ns3:ClientResponse NumberOfBioRecords="1">
+								<ns3:Status>S</ns3:Status>
+								<ns3:BiometricDataResponse SequenceNumber="1">
+									<ns3:Status>S</ns3:Status>
+								</ns3:BiometricDataResponse>
+								<ns3:Message code="210" type="I">BiometricEnrollment matched to beneficiary</ns3:Message>
+							</ns3:ClientResponse>
+							<ns3:Message code="98" type="I">Transaction processed in test environment</ns3:Message>
+						</ns3:Response>
+					</ns3:BiometricEnrollment>
+				</ns2:response>
+			</ns2:processResponse>
+		</soap:Body>
+	</soap:Envelope>
+[9/27/22, 12:16:47] ‪+263 78 232 2587‬: this is what i get on biometric reuests
+[9/27/22, 12:17:18] KC: answer call
+[9/27/22, 12:17:51] ‪+263 78 232 2587‬: my phone is broken im using my pc
+[9/27/22, 12:18:04] KC: how can we have a call,
+[9/27/22, 12:19:24] ‪+263 78 232 2587‬: let me ask someone ndokusendera her number wofona we can use that one
+‎[9/27/22, 12:20:20] ‪+263 78 232 2587‬: ‎image omitted
+[9/27/22, 12:21:34] KC: use Afhoz : 50083
+[9/27/22, 12:21:41] KC: it has bypass
+[9/27/22, 12:22:03] ‪+263 78 232 2587‬: where
+[9/27/22, 12:22:19] KC: for everything
+[9/27/22, 12:22:26] KC: esp on claim submission
+[9/27/22, 12:22:44] ‪+263 78 232 2587‬: i mean on the url or transaction section of the xml
+[9/27/22, 12:22:47] ‪+263 78 232 2587‬: code
+[9/27/22, 12:23:20] KC: please find a way to call, i am now confused
+[9/27/22, 12:23:46] ‪+263 78 232 2587‬: can we use facebook calls ?
+[9/27/22, 12:24:22] KC: create a meeting
+[9/27/22, 12:24:32] ‪+263 78 232 2587‬: okey
+[9/27/22, 12:25:25] ‪+263 78 232 2587‬: https://msngr.com/errdqxjmnuxf
+[9/27/22, 12:30:19] KC: <?xml version="1.0" encoding="UTF-8"?>
+<Member xmlns="urn:apace:member:format:1.0">
+    <Response>
+        <Transaction>
+            <VersionNumber>1.0</VersionNumber>
+            <Number>24892348345</Number>
+            <Status>S</Status>
+            <Timestamp TimeZone="Africa/Harare">20220927113857</Timestamp>
+        </Transaction>
+        <Membership NumberOfBeneficaryRecords="1">
+            <Funder>CMPUZW</Funder>
+            <MembershipNumber>201000594</MembershipNumber>
+            <Beneficiary SequenceNumber="1">
+                <DependentCode>00</DependentCode>
+                <Type>P</Type>
+                <Status>A</Status>
+                <BiometricEnrolmentStatus>Y</BiometricEnrolmentStatus>
+                <BeneficiaryDetail>
+                    <Surname>NYAHUNDA</Surname>
+                    <FirstName>MEGINA</FirstName>
+                    <Initials>M</Initials>
+                    <Title>MS</Title>
+                    <Gender>F</Gender>
+                    <DateOfBirth>19740201</DateOfBirth>
+                    <NationalIDNumber>22143325F04</NationalIDNumber>
+                    <MaritalStatus>U</MaritalStatus>
+                    <Language>eng</Language>
+                    <EmployerGroup>32643</EmployerGroup>
+                    <JoinDate>20100401</JoinDate>
+                    <BenefitDate>20200601</BenefitDate>
+                </BeneficiaryDetail>
+                <Address Type="H">
+                    <Line1>4369 CHINOTIMBA TOWNSHIP</Line1>
+                    <Line2>VICTORIA  FALLS</Line2>
+                    <City>Unknown</City>
+                    <Code>Unknown</Code>
+                    <Country>Unknown</Country>
+                </Address>
+                <Address Type="P">
+                    <Line1>4369 CHINOTIMBA TOWNSHIP</Line1>
+                    <Line2>VICTORIA  FALLS</Line2>
+                    <City>Unknown</City>
+                    <Code>Unknown</Code>
+                    <Country>Unknown</Country>
+                </Address>
+                <ContactDetail>
+                    <MobilePrimary>+263773461837</MobilePrimary>
+                    <Work>+2631344275</Work>
+                </ContactDetail>
+            </Beneficiary>
+        </Membership>
+        <Message Code="98" Type="I">Transaction processed in test environment</Message>
+    </Response>
+</Member>
+[9/27/22, 12:32:39] ‪+263 78 232 2587‬: <x:Envelope
+    xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:apa="http://apace.systems/apacewebservices/"
+    xmlns:urn="urn:apace:biometric:format:1.1">
+    <x:Header>
+        <apa:secureToken>eb4eeb1e9e03493e2d1db0e524c7da98f0bb2a11ad991335d0ee038560704906</apa:secureToken>
+    </x:Header>
+    <x:Body>
+        <apa:process>
+            <apa:request>
+                <urn:BiometricEnrollment>
+                    <urn:Request>
+                        <urn:Transaction>
+                            <urn:VersionNumber>1.1</urn:VersionNumber>
+                            <urn:Type>REQ</urn:Type>
+                            <urn:Number>24892348347</urn:Number>
+                            <urn:SystemIdentifier>WCHMS</urn:SystemIdentifier>
+                            <urn:DestinationCode>CMPUZWA</urn:DestinationCode>
+                            <urn:CountryCode>ZW</urn:CountryCode>
+                            <urn:Timestamp TimeZone="Africa/Harare">20211124153406</urn:Timestamp>
+                            <urn:TestIndicator>Y</urn:TestIndicator>
+                            <urn:User>698437/af</urn:User>
+                        </urn:Transaction>
+
+                        <urn:Client NumberOfBioRecords="1">
+                            <urn:Action>VERIFY</urn:Action>
+                            <urn:ClientCodeType>MED</urn:ClientCodeType>
+                            							    <urn:ClientCode>CMPUZW^2201003591^00</urn:ClientCode>
+                            <urn:ClientSubCode>00</urn:ClientSubCode>
+                            <urn:OverrideIndicator>N</urn:OverrideIndicator>
+                            <urn:OverrideReason>NA</urn:OverrideReason>
+                            <urn:BiometricData SequenceNumber="1">
+                                <urn:Type>FPI</urn:Type>
+                                <urn:Indicator>RT</urn:Indicator>
+                                <urn:Data>Rk1SACAyMAAAAACcAAABBAEsAMUAxQEAABBjFYBPABgiAEANAB6oAECQADYXAEBJADweAIC5AEEBAEBiAEedAECHAGgQAIBCAHYiAIB2AHmWAEC/AHr7AIDVAHp5AEAVAI0oAIBjAJMiAECVAKaNAEA6ALAmAEDoANL4AIASANinAEBnAOghAEC9AOqGAEAoAPElAEDAAQaUAAAA</urn:Data>
+                            </urn:BiometricData>
+                        </urn:Client>
+                    </urn:Request>
+                </urn:BiometricEnrollment>
+            </apa:request>
+        </apa:process>
+    </x:Body>
+</x:Envelope>
+[9/27/22, 12:37:15] KC: <?xml version="1.0" encoding="UTF-8"?>
+<Claim xmlns="http://zieto.co.za/claim/zmf">
+    <Response>
+        <TransactionResponse>
+            <Type>CR</Type>
+            <Number>1418</Number>
+            <DateTime>20220927123539</DateTime>
+        </TransactionResponse>
+        <Member>
+            <MedicalSchemeNumber>201000594</MedicalSchemeNumber>
+            <MedicalSchemeName>Cellmed Premium USD</MedicalSchemeName>
+        </Member>
+        <Patient>
+            <DependantCode>00</DependantCode>
+            <NewBornIndicator>N</NewBornIndicator>
+            <Personal>
+                <Title>MS</Title>
+                <Surname>NYAHUNDA</Surname>
+                <FirstName>MEGINA</FirstName>
+                <Initials>M</Initials>
+                <Gender>F</Gender>
+                <IDNumber>22143325F04</IDNumber>
+                <IDType>ID</IDType>
+                <DateOfBirth>19740201</DateOfBirth>
+            </Personal>
+        </Patient>
+        <ClaimHeaderResponse>
+            <ResponseCode>R</ResponseCode>
+            <Message>
+                <Type>I</Type>
+                <Code>98</Code>
+                <Description>Transaction processed in test environment</Description>
+            </Message>
+            <Message>
+                <Type>R</Type>
+                <Code>145</Code>
+                <Description>Not authorised to submit biometric bypass</Description>
+            </Message>
+            <TotalValues>
+                <GrossAmount>789</GrossAmount>
+                <NettAmount>0</NettAmount>
+                <PatientPayAmount>789</PatientPayAmount>
+            </TotalValues>
+        </ClaimHeaderResponse>
+        <ServiceResponse>
+            <Number>1</Number>
+            <BenefitCode>A223</BenefitCode>
+            <BenefitDescription>Descr</BenefitDescription>
+            <Identifier>0</Identifier>
+            <SubTotalValues>
+                <GrossAmount>789</GrossAmount>
+                <NettAmount>0</NettAmount>
+                <PatientPayAmount>789</PatientPayAmount>
+            </SubTotalValues>
+            <TotalValues>
+                <GrossAmount>789</GrossAmount>
+                <NettAmount>0</NettAmount>
+                <PatientPayAmount>789</PatientPayAmount>
+            </TotalValues>
+        </ServiceResponse>
+    </Response>
+</Claim>
+[10/11/22, 13:45:15] ‪+263 78 232 2587‬: Hi collet
+[10/11/22, 13:46:45] ‪+263 78 232 2587‬: I bought a new phone and failed to retrieve all the messages we shared...... Can you send me a copy of our chat
+[10/11/22, 14:00:42] ‪+263 78 232 2587‬: I've been pa off and my phone was broken and so I bought a new phone
+[10/11/22, 14:45:26] ‪+263 78 232 2587‬: ‎Missed voice call
+[10/11/22, 16:16:29] KC: Hi , you want from which date
+[10/11/22, 16:17:05] ‪+263 78 232 2587‬: If possible you can export the chart and send me everything

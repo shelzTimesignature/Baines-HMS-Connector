@@ -1,0 +1,36 @@
+<x:Envelope
+        xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:apa="http://apace.systems/apacewebservices/"
+        xmlns:urn="urn:apace:member:format:1.0">
+    <x:Header>
+        <apa:secureToken>eb4eeb1e9e03493e2d1db0e524c7da98f0bb2a11ad991335d0ee038560704906</apa:secureToken>
+    </x:Header>
+    <x:Body xmlns:x="http://schemas.xmlsoap.org/soap/envelope/">
+        <apa:process xmlns:apa="http://apace.systems/apacewebservices/">
+            <apa:request>
+                <urn:Member xmlns:urn="urn:apace:member:format:1.0">
+                    <urn:Request>
+                        <urn:Transaction>
+                            <urn:VersionNumber>1.0</urn:VersionNumber>
+                            <urn:Number>24892348345</urn:Number>
+                            <urn:SystemIdentifier>WCHMS</urn:SystemIdentifier>
+                            <urn:DestinationCode>CLMDZWA</urn:DestinationCode>
+                            <urn:ClientCountryCode>ZW</urn:ClientCountryCode>
+                            <urn:Timestamp TimeZone="Africa/Harare">20211124153406</urn:Timestamp>
+                            <urn:TestIndicator>Y</urn:TestIndicator>
+                            <urn:User>698437/mziwani</urn:User>
+                        </urn:Transaction>
+                        <urn:MembershipLookup>
+                            <urn:IncludeDetail>Y</urn:IncludeDetail>
+                            <urn:Funder>CLMDZW</urn:Funder>
+                            <urn:WithMembershipNumber>
+                                <urn:MembershipNumber>201000594</urn:MembershipNumber>
+                                <urn:DependentCode>01</urn:DependentCode>
+                            </urn:WithMembershipNumber>
+                        </urn:MembershipLookup>
+                    </urn:Request>
+                </urn:Member>
+            </apa:request>
+        </apa:process>
+    </x:Body>
+</x:Envelope>

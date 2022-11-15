@@ -1,0 +1,9 @@
+
+step 1 - gives permission to use remote signed certificates
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+
+step 2 - module importation
+ Import-Module "C:\Program Files\Microsoft Dynamics 365 Business Central\130\Service\NavAdminTool.ps1"
+
+step 3 - create certificates
+ New-SelfSignedCertificate -DnsName "HMS" -CertStoreLocation "cert:\LocalMachine\My"

@@ -1,0 +1,41 @@
+<x:Envelope
+        xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:apa="http://apace.systems/apacewebservices/"
+        xmlns:urn="urn:apace:biometric:format:1.1">
+    <x:Header>
+        <apa:secureToken>add your token</x:Header>
+    <x:Body>
+        <apa:process>
+            <apa:request>
+                <urn:Biometric>
+                    <urn:Request>
+                        <urn:Transaction>
+                            <urn:VersionNumber>1.1</urn:VersionNumber>
+                            <urn:Type>REQ</urn:Type>
+                            <urn:Number>24892348347</urn:Number>
+                            <urn:SystemIdentifier>WCHMS</urn:SystemIdentifier>
+                            <urn:DestinationCode>CMPUZWA</urn:DestinationCode>
+                            <urn:CountryCode>ZW</urn:CountryCode>
+                            <urn:Timestamp TimeZone="Africa/Harare">20211124153406</urn:Timestamp>
+                            <urn:TestIndicator>Y</urn:TestIndicator>
+                            <urn:User>698437/mziwani</urn:User>
+                        </urn:Transaction>
+                        <urn:Client NumberOfBioRecords="1">
+                            <urn:Action>VERIFY</urn:Action>
+                            <urn:ClientCodeType>MED</urn:ClientCodeType>
+                            <urn:ClientCode>CMPUZW^201000594^00</urn:ClientCode>
+                            <urn:ClientSubCode>00</urn:ClientSubCode>
+                            <urn:OverrideIndicator>N</urn:OverrideIndicator>
+                            <urn:OverrideReason>NA</urn:OverrideReason>
+                            <urn:BiometricData SequenceNumber="1">
+                                <urn:Type>FPI</urn:Type>
+                                <urn:Indicator>RT</urn:Indicator>
+                                <urn:Data>Rk1SACAyMAAAAAE+AAABBAEsAMUAxQEAABBaMIBjABARAIDzAB/rAEDqADtxAECVAEiRAEBXAEygAEDFAFLuAICRAFUKAIB1AFYYAED0AFroAECwAFv4AEDNAFxuAIBIAGAfAIBqAGCeAECyAHPxAEDUAHPkAIBwAHkYAECVAH4AAIDXAInbAIB/AIwJAIC2AJPeAICkAJTdAICNAJfvAEC4AKPKAECNAKSgAEDaAKvQAIAxAK21AEBEAK67AECfALC7AEBQALXGAEByALckAECMALqdAIB2ALwUAIBkAMA4AIDjAMXJAIBZAM5KAIC0ANC/AECqANusAEDpAN7GAEBoAN94AICeAN+iAED1AOPNAEDdAObDAECTAO4hAIDOAO+4AEBAAPDlAIA2AQDaAIBaAQp7AIDmARi5AAAA</urn:Data>
+                            </urn:BiometricData>
+                        </urn:Client>
+                    </urn:Request>
+                </urn:Biometric>
+            </apa:request>
+        </apa:process>
+    </x:Body>
+</x:Envelope>

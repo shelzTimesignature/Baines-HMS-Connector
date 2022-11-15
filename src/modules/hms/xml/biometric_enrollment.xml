@@ -1,0 +1,82 @@
+<x:Envelope
+        xmlns:x="http://schemas.xmlsoap.org/soap/envelope/"
+        xmlns:apa="http://apace.systems/apacewebservices/"
+        xmlns:urn="urn:apace:member:format:1.0">
+    <x:Header>
+        <apa:secureToken>eb4eeb1e9e03493e2d1db0e524c7da98f0bb2a11ad991335d0ee038560704906</apa:secureToken>
+    </x:Header>
+
+
+    <x:Body xmlns:x="http://schemas.xmlsoap.org/soap/envelope/">
+        <apa:process xmlns:apa="http://apace.systems/apacewebservices/">
+            <apa:request>
+                <ns3:Biometric xmlns:ns3="urn:apace:biometric:format:1.1">
+                    <ns3:Request>
+                        <ns3:Transaction>
+                            <ns3:VersionNumber xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="xs:string">1.1</ns3:VersionNumber>
+                            <ns3:Type>REQ</ns3:Type>
+                            <ns3:Number>DRMS-4543-1661426551910-50</ns3:Number>
+                            <ns3:SystemIdentifier>WCHMS</ns3:SystemIdentifier>
+                            <ns3:DestinationCode>CMPUZWA</ns3:DestinationCode>
+                            <ns3:CountryCode>ZW</ns3:CountryCode>
+                            <ns3:Timestamp TimeZone="Africa/Harare">20220825132231</ns3:Timestamp>
+                            <ns3:TestIndicator>Y</ns3:TestIndicator>
+                            <ns3:User>18230/18230</ns3:User>
+                        </ns3:Transaction>
+                        <ns3:Client NumberOfBioRecords="10">
+                            <ns3:Action>ENROL</ns3:Action>
+                            <ns3:ClientCodeType>MED</ns3:ClientCodeType>
+                            <ns3:ClientCode>CMPUZW^201000594^02</ns3:ClientCode>
+                            <ns3:OverrideIndicator>N</ns3:OverrideIndicator>
+                            <ns3:BiometricData SequenceNumber="1">
+                                <ns3:Type>FPI</ns3:Type>
+                                <ns3:Indicator>LI</ns3:Indicator>
+                                <ns3:Data>Rk1SACAyMAAAAACoAAABBAEsAMUAxQEAAABbF0BxABsRAIDuACIEAEBQAC0bAIDOADGHAEDCAD8HAECgAF4HAEBiAGAXAIAtAGMeAEDsAG3xAIC1AHcAAEAZAH2nAIA7AJOoAECFAJUQAEBQALaqAIDhALrbAEDJAL3dAICYAMAHAEAmAMgpAID8ANbQAEAWAO2zAEDkAPvGAEAnAQi7AEBuARo9AAAA</ns3:Data>
+                            </ns3:BiometricData>
+                            <ns3:BiometricData SequenceNumber="3">
+                                <ns3:Type>FPI</ns3:Type>
+                                <ns3:Indicator>LP</ns3:Indicator>
+                                <ns3:Data>Rk1SACAyMAAAAACWAAABBAEsAMUAxQEAAABTFEB+ABuNAIArACsoAEAcADGnAEBsADUVAEB2AE0KAIChAF30AIAoAF8eAIBsAIoRAIBTAKSnAEByAKqnAIB3AK+vAEB7ALa1AIA0ALcsAEBxAMYzAEC9ANK7AIBbAOErAEDIAOW7AEB3AP+eAIBOAQYeAEBdAR4VAAAA</ns3:Data>
+                            </ns3:BiometricData>
+                            <ns3:BiometricData SequenceNumber="4">
+                                <ns3:Type>FPI</ns3:Type>
+                                <ns3:Indicator>LR</ns3:Indicator>
+                                <ns3:Data>Rk1SACAyMAAAAAD2AAABBAEsAMUAxQEAAABcJEBDAByiAIAxAC0kAIBZAD8aAIArAEOiAEBPAE2kAIDFAFprAIAqAFwlAEDDAGPeAECtAHl7AEBhAIKoAECiAJvGAECZAJ2sAECeAJ+uAECnAJ/KAIB7AKGyAECfAKe7AED2AKfHAECOALMuAEBGALOxAIBdALi1AECoAMM4AIC2ANSyAECWANU4AIAoAOCxAICUAOA6AIA9AOC1AEBSAPLGAIDWAPO7AEC8APesAEAeAPiqAICmAPiWAIDpAQC/AEAsAQ29AEB3AQ/nAEC9ARCoAECTARl9AAAA</ns3:Data>
+                            </ns3:BiometricData>
+                            <ns3:BiometricData SequenceNumber="5">
+                                <ns3:Type>FPI</ns3:Type>
+                                <ns3:Indicator>LT</ns3:Indicator>
+                                <ns3:Data>Rk1SACAyMAAAAADAAAABBAEsAMUAxQEAAABSG0CRABURAEDaACDsAECaAESWAECNAEYVAIC+AFD/AEBhAFGhAIDrAFFaAID2AGPMAECjAGqdAECIAG8fAIC/AHWyAIDeAHjAAICtAHmuAEAkAJSdAEDIAJizAIA0AJyrAIBjAKClAIBIAKkiAED0ALK4AECxAL2qAEAcAMkeAEBRAM4aAIAyAM4VAIAZANSUAEA0AO0QAEDQAO+oAIBSAQ0JAAAA</ns3:Data>
+                            </ns3:BiometricData>
+                            <ns3:BiometricData SequenceNumber="6">
+                                <ns3:Type>FPI</ns3:Type>
+                                <ns3:Indicator>RI</ns3:Indicator>
+                                <ns3:Data>Rk1SACAyMAAAAADYAAABBAEsAMUAxQEAAABjH0AzAAx4AICsABJvAEAeADGDAECeADJ4AEDlADbsAIARAD0AAEAxAEp9AEDfAFRuAIBrAGF8AIDkAG7uAIAXAIGRAEC2AJJzAIDmAJbuAIDaAJ/oAEBvAK6GAICXALl7AIDJAMFlAECJAML1AICCANZ5AEDKAN7dAED6AOnQAEBfAO+iAECQAPDkAEB+APbnAEDhAPpbAEDSAP5fAEAPAP64AECuAQhkAEBnAQrNAIDpAQxzAEDeASN7AAAA</ns3:Data>
+                            </ns3:BiometricData>
+                            <ns3:BiometricData SequenceNumber="7">
+                                <ns3:Type>FPI</ns3:Type>
+                                <ns3:Indicator>RM</ns3:Indicator>
+                                <ns3:Data>Rk1SACAyMAAAAADGAAABBAEsAMUAxQEAAABQHIBoAA98AEBQABGKAIBDADWgAEBLADoUAICnADt1AEB3AE2KAECbAFr0AEA8AGIcAIBqAGMJAICkAHdzAEBEAHunAEC5AIHbAECHAIKNAECkAJrUAECWAJvRAIBMAKS1AIDQAKfMAECCAKjAAECsAKpRAEDJAK9QAECvALHNAECiALhNAEB2ANLHAIDvANnGAIBIANvDAICSAOdGAEDTAOfAAECIAPlHAAAA</ns3:Data>
+                            </ns3:BiometricData>
+                            <ns3:BiometricData SequenceNumber="8">
+                                <ns3:Type>FPI</ns3:Type>
+                                <ns3:Indicator>RP</ns3:Indicator>
+                                <ns3:Data>Rk1SACAyMAAAAACuAAABBAEsAMUAxQEAAABYGECzAAveAEBYACp1AEDGAC9bAECOAEZhAEC4AExbAEBVAFeAAEApAF2kAEAtAJK4AIDcAJdXAEBRAJjDAIDIAKXWAIBSAKfGAEBvAKvaAEBiAK7UAIAyALLDAEB9AL9aAIDZAMBXAIB2AMLXAEC5AMtUAEB0AM1VAIBPAM/JAIB8AQNXAEBQAQvaAECiARRpAAAA</ns3:Data>
+                            </ns3:BiometricData>
+                            <ns3:BiometricData SequenceNumber="9">
+                                <ns3:Type>FPI</ns3:Type>
+                                <ns3:Indicator>RR</ns3:Indicator>
+                                <ns3:Data>Rk1SACAyMAAAAADGAAABBAEsAMUAxQEAAABSHEBnABwTAEDeABxhAECsACppAECRAEF9AIDMAETRAECXAFzjAECIAGPGAEB6AGO7AECEAGrDAECmAGphAIBHAHO8AIBxAHbJAEB4AHc9AIBrAJPHAICzAKhKAEDZAK3GAIDxAK7HAIC8ALtEAEC1AMJQAEDFAM09AEDEANKkAIC1ANRfAEBVANjKAIDGAOYcAECiAQbuAEC8AQkAAEDOARsGAEC6ASJ4AAAA</ns3:Data>
+                            </ns3:BiometricData>
+                            <ns3:BiometricData SequenceNumber="10">
+                                <ns3:Type>FPI</ns3:Type>
+                                <ns3:Indicator>RT</ns3:Indicator>
+                                <ns3:Data>Rk1SACAyMAAAAACcAAABBAEsAMUAxQEAAABUFYCeACD0AEDJACtoAID2AD5eAICzAEhpAEBCAFeuAIB+AGeKAEBtAGkKAEDUAGrdAECAAH69AECGAIHQAEB9AJ3QAECwAKrRAEBzALXQAIBVALXDAEC+AMNYAEA6AMZAAIBAAMvFAECVAOHZAECHAPtRAEBiAQDRAEDUARduAAAA</ns3:Data>
+                            </ns3:BiometricData>
+                        </ns3:Client>
+                    </ns3:Request>
+                </ns3:Biometric>
+            </apa:request>
+        </apa:process>
+    </x:Body>
+</x:Envelope>
